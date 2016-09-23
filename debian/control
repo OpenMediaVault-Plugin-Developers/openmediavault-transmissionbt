@@ -1,0 +1,19 @@
+Source: openmediavault-transmissionbt
+Section: net
+Priority: optional
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+XB-Plugin-Section: downloaders
+
+Package: openmediavault-transmissionbt
+Architecture: all
+Depends: omvextras-common,
+         openmediavault (>= 3.0.21),
+         transmission-cli,
+         transmission-daemon,
+         ${misc:Depends}
+Priority: optional
+Description: OpenMediaVault Transmission (BitTorrent client) plugin.
+ Transmission is a simple BitTorrent client that features a very simple and
+ intuitive interface.

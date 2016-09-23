@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    purge|remove|failed-upgrade|abort-install|abort-upgrade|disappear)
+        # Stop the service.
+        deb-systemd-invoke stop transmission-daemon.service >/dev/null || true
+    ;;
+
+    upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

@@ -1,0 +1,38 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.queuing",
+    "title": "BitTorrent - Queuing",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/queuing",
+        "iterable": false
+    },
+    "properties": {
+        "download-queue-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "download-queue-size": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 5
+        },
+        "queue-stalled-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "queue-stalled-minutes": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 30
+        },
+        "seed-queue-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "seed-queue-size": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 10
+        }
+    }
+}

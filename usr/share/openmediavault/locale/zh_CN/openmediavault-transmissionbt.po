@@ -1,0 +1,609 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# songming <by@songming.me>, 2013-2014
+# Wei Ding <dyw.net@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-transmissionbt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-18 06:27-0500\n"
+"PO-Revision-Date: 2014-11-14 19:51+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "% completed ..."
+msgstr ""
+
+msgid "100% completed ..."
+msgstr ""
+
+msgid "Add Torrent by URL"
+msgstr "添加种子URL地址"
+
+msgid "Add torrent"
+msgstr ""
+
+msgid "Adding Torrent ..."
+msgstr "添加种子 ..."
+
+msgid "Authentication"
+msgstr "验证"
+
+msgid "Auto sync"
+msgstr "自动同步"
+
+msgid "Bandwidth"
+msgstr "带宽"
+
+msgid "Begin"
+msgstr "开始"
+
+msgid "Bindings"
+msgstr "绑定"
+
+msgid "BitTorrent"
+msgstr "BitTorrent下载"
+
+msgid "Blocklists"
+msgstr "黑名单"
+
+msgid "Cache Size"
+msgstr "缓存大小"
+
+msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgstr "缓存(单位Mb)可以减少磁盘读写次数。"
+
+msgid "Changing place in queue for selected item(s)"
+msgstr ""
+
+msgid "Checking files"
+msgstr "检查文件"
+
+msgid "DL-rate"
+msgstr "下载率"
+
+msgid "Daily"
+msgstr "每天"
+
+msgid "Date & Time"
+msgstr "日期和时间"
+
+msgid "Date added"
+msgstr "添加日期"
+
+msgid "Date done"
+msgstr "完成日期"
+
+msgid "Days"
+msgstr "日期"
+
+msgid "Debug"
+msgstr "调试"
+
+msgid "Delete Local Data"
+msgstr "删除本地数据"
+
+msgid "Delete torrent"
+msgstr "删除种子"
+
+msgid "Delete torrents added from the watch directory."
+msgstr "删除监视目录中已经添加的种子。"
+
+msgid "Deleting torrent ..."
+msgstr "删除种子中 ..."
+
+msgid "Directory"
+msgstr "目录"
+
+msgid ""
+"Directory to keep downloads. If incomplete is enabled, only complete "
+"downloads will be stored here."
+msgstr "下载目录，如果启用未完成下载目录，该目录仅保存下载完成的文件。"
+
+msgid "Directory to keep files in until torrent is complete."
+msgstr "在该目录中保存下载中的文件直到其下载完成。"
+
+msgid "Distributed hash table (DHT)."
+msgstr "分布式哈希表 (DHT)。"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Download Queue"
+msgstr "下载列队"
+
+msgid "Downloading"
+msgstr "下载中"
+
+msgid "ETA"
+msgstr "ETA"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable &micro;TP."
+msgstr "启用 &micro;TP。"
+
+msgid "Enable DHT."
+msgstr "启用DHT。"
+
+msgid "Enable LPD."
+msgstr "启用LPD。"
+
+msgid "Enable PEX."
+msgstr "启用PEX。"
+
+msgid "Enable Turtle Mode."
+msgstr "启用限速模式。"
+
+msgid "Enable Watch directory."
+msgstr "启用监视目录。"
+
+msgid "Enable download limit."
+msgstr "启用下载限制。"
+
+msgid "Enable incomplete directory."
+msgstr "启用未完成下载目录。"
+
+msgid "Enable paused torrent scraping."
+msgstr "启用被暂停的种子搜索。"
+
+msgid "Enable port forwarding via NAT-PMP or UPnP."
+msgstr "启用NAT-PMP或UPnP端口转发。"
+
+msgid "Enable upload limit."
+msgstr "启用上传限制。"
+
+msgid "Encryption"
+msgstr "加密"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Enter path to script."
+msgstr "输入脚本路径。"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Event"
+msgstr "事件"
+
+msgid "Fast"
+msgstr "快"
+
+msgid "Files"
+msgstr "文件"
+
+msgid "Files and locations"
+msgstr "文件和位置"
+
+msgid "Forced"
+msgstr "强制"
+
+msgid "Friday"
+msgstr "星期五"
+
+msgid "Full"
+msgstr "全部"
+
+msgid "General"
+msgstr "常规"
+
+msgid "General settings"
+msgstr "常规设置"
+
+msgid "Global"
+msgstr "全球"
+
+msgid "Hourly"
+msgstr "每小时"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
+msgstr "IPv4监听地址，用0.0.0.0表示所有主机IP。"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 address to listen on. Use :: for all host IPs."
+msgstr "IPv6监听地址，用 :: 表示所有主机IP。"
+
+msgid "Idle"
+msgstr "闲置"
+
+msgid "Idle Minutes"
+msgstr "限制时间"
+
+msgid "Incomplete"
+msgstr "未完成"
+
+msgid "Infinite"
+msgstr "无限"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Invalid Uri."
+msgstr "无效Uri。"
+
+msgid "Lazy Bitfield"
+msgstr "Lazy Bitfield"
+
+msgid "Limit Download"
+msgstr "限制下载"
+
+msgid "Limit Upload"
+msgstr "限制上传"
+
+msgid "Limit download speed. Value is kb/s."
+msgstr "限制下载速度值kb/s。"
+
+msgid "Limit upload speed. Value is kb/s."
+msgstr "限制上传速度值kb/s。"
+
+msgid "Limits"
+msgstr "限制"
+
+msgid "Local Peer Discovery (LPD)."
+msgstr "本地节点发现(LPD)。"
+
+msgid "Locations"
+msgstr "位置"
+
+msgid ""
+"Make sure the group 'debian-transmission' has read/write access to the "
+"shared folder."
+msgstr "确认'debian-transmission'组拥有共享文件夹的读/写权限。"
+
+msgid "May help get around some ISP filtering."
+msgstr "可能对突破ISP封杀BT有帮助。"
+
+msgid "Message Level"
+msgstr "消息级别"
+
+msgid "Micro Transport Protocol (&micro;TP)."
+msgstr "微传输协议(&micro;TP)。"
+
+msgid "Missing Status: "
+msgstr "缺失状态："
+
+msgid "Mode for preallocating files."
+msgstr "文件预分配模式。"
+
+msgid "Monday"
+msgstr "星期一"
+
+msgid "Monthly"
+msgstr "每月"
+
+msgid "Move down"
+msgstr ""
+
+msgid "Move to bottom"
+msgstr ""
+
+msgid "Move to top"
+msgstr ""
+
+msgid "Move up"
+msgstr ""
+
+msgid "Name"
+msgstr "名称"
+
+msgid "None"
+msgstr "无"
+
+msgid "Not available"
+msgstr "不可用"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "关闭"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Pause"
+msgstr "暂停"
+
+msgid "Peer"
+msgstr "节点"
+
+msgid "Peer Ports"
+msgstr "节点端口"
+
+msgid "Peer exchange (PEX)"
+msgstr "节点交换 (PEX)"
+
+msgid "Peer port"
+msgstr "节点端口"
+
+msgid "Peers"
+msgstr "节点"
+
+msgid "Per torrent"
+msgstr "每个种子"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Port forwarding"
+msgstr "端口转发"
+
+msgid "Port to listen for incoming peer connections."
+msgstr "传入节点连接监听端口。"
+
+msgid "Port to open and listen for RPC/Web requests on."
+msgstr "RPC/Web请求打开和监听的端口。"
+
+msgid "Postfix"
+msgstr "后缀"
+
+msgid "Postfix partially downloaded files with .part."
+msgstr "部分下载的文件以.part 作为后缀。"
+
+msgid "Preallocation"
+msgstr "预分配"
+
+msgid "Preferred"
+msgstr "优先的"
+
+msgid "Queue"
+msgstr "列队"
+
+msgid "Queue Stalled"
+msgstr "列队停滞"
+
+msgid "Queued to check files"
+msgstr "检查文件列队"
+
+msgid "Queued to download"
+msgstr "下载列队"
+
+msgid "Queued to seed"
+msgstr "列队种子"
+
+msgid "Queuing"
+msgstr "列队"
+
+msgid "RPC/WebUI Settings"
+msgstr "RPC/WebUI设置"
+
+msgid "Random Port"
+msgstr "随机端口"
+
+msgid "Random Port on start."
+msgstr "启动时生成随机端口。"
+
+msgid "Random high"
+msgstr "随机最大值"
+
+msgid "Random low"
+msgstr "随机最小值"
+
+msgid "Ratio"
+msgstr "比率"
+
+msgid "Ratio Limit"
+msgstr "限制比率"
+
+msgid "Require clients to authenticate themselves."
+msgstr "要求客户端进行身份认证。"
+
+msgid "Resume"
+msgstr "恢复"
+
+msgid "Run a script at torrent completion."
+msgstr "种子完成后执行脚本。"
+
+msgid "Saturday"
+msgstr "星期六"
+
+msgid "Scheduling"
+msgstr "计划"
+
+msgid "Scrape paused torrents."
+msgstr "搜索暂停种子。"
+
+msgid "Script"
+msgstr "脚本"
+
+msgid "Script to process after torrent finishes"
+msgstr ""
+
+msgid "Seed"
+msgstr "种子"
+
+msgid "Seed Queue"
+msgstr "种子列队"
+
+msgid "Seeding"
+msgstr "做种"
+
+msgid "Seeding Limit"
+msgstr "做种限制"
+
+msgid "Set verbosity of transmission messages."
+msgstr "设置传输信息的级别。"
+
+msgid "Sets transmission's file mode creation mask."
+msgstr ""
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Shared folder"
+msgstr "共享文件夹"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Socket TOS"
+msgstr ""
+
+msgid "Speed"
+msgstr "速度"
+
+msgid "Stalled Minutes"
+msgstr "停滞分钟"
+
+msgid "Start Torrents"
+msgstr "启动种子"
+
+msgid "Start download"
+msgstr "开始下载"
+
+msgid "Start torrents as soon as they are added."
+msgstr "添加后立即启动种子。"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Stop seeding after being idle for N minutes."
+msgstr "限制N分钟后停止做种。"
+
+msgid "Sunday"
+msgstr "星期天"
+
+msgid "Sync frequency"
+msgstr "同步频率"
+
+msgid "The URL of the blocklist."
+msgstr "黑名单网址。"
+
+msgid "The peer connection encryption mode."
+msgstr "节点链接加密模式。"
+
+msgid "Thursday"
+msgstr "星期四"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Torrent is stopped"
+msgstr "种子已停止"
+
+msgid "Torrents"
+msgstr ""
+
+msgid ""
+"Torrents that have not shared data for queue-stalled-minutes are treated as "
+"'stalled' and are not counted against the queue-download-size and seed-"
+"queue-size limits."
+msgstr ""
+
+msgid ""
+"Transmission will only download download-queue-size non-stalled torrents at "
+"once."
+msgstr ""
+
+msgid ""
+"Transmission will only seed seed-queue-size non-stalled torrents at once."
+msgstr ""
+
+msgid "Transmission will only seed until ratio limit is reached."
+msgstr ""
+
+msgid "Trash original"
+msgstr "回收站文件"
+
+msgid "Tuesday"
+msgstr "星期二"
+
+msgid "Turtle Mode"
+msgstr "限速模式"
+
+msgid "Turtle Mode download speed. Value is kb/s."
+msgstr "限速模式下载速度，单位是 kb/s 。"
+
+msgid "Turtle Mode upload speed. Value is kb/s."
+msgstr "限速模式上传速度，单位是 kb/s 。"
+
+msgid "UL-rate"
+msgstr "上传速率"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Umask"
+msgstr ""
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Update blocklists automatically."
+msgstr "自动更新黑名单。"
+
+msgid "Upload"
+msgstr "上传"
+
+msgid "Upload slots"
+msgstr "上传通道数"
+
+msgid "Upload torrent"
+msgstr "上传种子"
+
+msgid "Uri"
+msgstr "Uri"
+
+msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+msgstr "URL访问地址 (http://localhost/&lt;URI&gt;/(rpc|web)。"
+
+msgid "Use blocklists."
+msgstr "启用黑名单。"
+
+msgid "Used for client authentication."
+msgstr "用于客户端验证。"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Watch"
+msgstr "监视"
+
+msgid "Watch a directory for torrent files and add them to transmission"
+msgstr "监视目录中的种子并添加到transmission。"
+
+msgid "Wednesday"
+msgstr "星期三"
+
+msgid "Weekly"
+msgstr "每周"
+
+msgid "When enabled, this will toggle the Turtle Mode."
+msgstr "启用之后将切换限速模式。"
+
+msgid "default"
+msgstr "默认"
+
+msgid "lowcost"
+msgstr "低成本"
+
+msgid "lowdelay"
+msgstr "低延迟"
+
+msgid "reliability"
+msgstr "可靠"
+
+msgid "throughput"
+msgstr "吞吐量"

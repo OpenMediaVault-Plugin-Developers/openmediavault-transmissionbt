@@ -1,0 +1,355 @@
+[{
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setsettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "enable": {
+                "type": "boolean"
+            },
+            "cache-size-mb": {
+                "type": "integer"
+            },
+            "dht-enabled": {
+                "type": "boolean"
+            },
+            "encryption": {
+                "type": "integer",
+                "enum": [0, 1, 2]
+            },
+            "lazy-bitfield-enabled": {
+                "type": "boolean"
+            },
+            "lpd-enabled": {
+                "type": "boolean"
+            },
+            "message-level": {
+                "type": "integer",
+                "enum": [0, 1, 2, 3]
+            },
+            "pex-enabled": {
+                "type": "boolean"
+            },
+            "scrape-paused-torrents-enabled": {
+                "type": "boolean"
+            },
+            "script-torrent-done-enabled": {
+                "type": "boolean"
+            },
+            "script-torrent-done-filename": {
+                "type": "string"
+            },
+            "utp-enabled": {
+                "type": "boolean"
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setbandwidthsettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "alt-speed-enabled": {
+                "type": "boolean"
+            },
+            "alt-speed-up": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "alt-speed-down": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "speed-limit-down": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "speed-limit-down-enabled": {
+                "type": "boolean"
+            },
+            "speed-limit-up": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "speed-limit-up-enabled": {
+                "type": "boolean"
+            },
+            "upload-slots-per-torrent": {
+                "type": "integer"
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setblocklistssettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "blocklist-enabled": {
+                "type": "boolean"
+            },
+            "blocklist-url": {
+                "type": "string"
+            },
+            "blocklist-sync-frequency": {
+                "type": "string",
+                "enum": [
+                    "hourly",
+                    "daily",
+                    "weekly",
+                    "monthly"
+                ]
+            },
+            "blocklist-sync-enabled": {
+                "type": "boolean"
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setfilesandlocationssettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "download-sharedfolderref": {
+                "type": "string",
+                "oneOf": [{
+                    "type": "string",
+                    "format": "uuidv4"
+                }, {
+                    "type": "string",
+                    "maxLength": 0
+                }]
+            },
+            "download-dir": {
+                "type": "string"
+            },
+            "incomplete-dir-enabled": {
+                "type": "boolean"
+            },
+            "incomplete-sharedfolderref": {
+                "type": "string",
+                "oneOf": [{
+                    "type": "string",
+                    "format": "uuidv4"
+                }, {
+                    "type": "string",
+                    "maxLength": 0
+                }]
+            },
+            "incomplete-dir": {
+                "type": "string"
+            },
+            "preallocation": {
+                "type": "integer",
+                "enum": [0, 1, 2]
+            },
+            "rename-partial-files": {
+                "type": "boolean"
+            },
+            "start-added-torrents": {
+                "type": "boolean"
+            },
+            "trash-original-torrent-files": {
+                "type": "boolean"
+            },
+            "umask": {
+                "type": "integer"
+            },
+            "watch-sharedfolderref": {
+                "type": "string",
+                "oneOf": [{
+                    "type": "string",
+                    "format": "uuidv4"
+                }, {
+                    "type": "string",
+                    "maxLength": 0
+                }]
+            },
+            "watch-dir": {
+                "type": "string"
+            },
+            "watch-dir-enabled": {
+                "type": "boolean"
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setpeersettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "bind-address-ipv4": {
+                "type": "string",
+                "format": "ipv4"
+            },
+            "bind-address-ipv6": {
+                "type": "string"
+            },
+            "peer-limit-global": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "peer-limit-per-torrent": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "peer-socket-tos": {
+                "type": "string",
+                "enum": [
+                    "default",
+                    "lowcost",
+                    "throughput",
+                    "lowdelay",
+                    "reliability"
+                ]
+            },
+            "peer-port": {
+                "type": "integer",
+                "minimum": 1024,
+                "maximum": 65535
+            },
+            "peer-port-random-low": {
+                "type": "integer",
+                "minimum": 1024,
+                "maximum": 65535
+            },
+            "peer-port-random-high": {
+                "type": "integer",
+                "minimum": 1024,
+                "maximum": 65535
+            },
+            "peer-port-random-on-start": {
+                "type": "boolean"
+            },
+            "port-forwarding-enabled": {
+                "type": "boolean"
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setqueuingsettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "download-queue-enabled": {
+                "type": "boolean"
+            },
+            "download-queue-size": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "queue-stalled-enabled": {
+                "type": "boolean"
+            },
+            "queue-stalled-minutes": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "seed-queue-enabled": {
+                "type": "boolean"
+            },
+            "seed-queue-size": {
+                "type": "integer",
+                "minimum": 0
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setrpcsettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "rpc-authentication-required": {
+                "type": "boolean"
+            },
+            "rpc-enabled": {
+                "type": "boolean"
+            },
+            "rpc-password": {
+                "type": "string",
+                "format": "regex",
+                "pattern": "\/^[^'\"\\\\]+$\/"
+            },
+            "rpc-port": {
+                "type": "integer",
+                "minimum": 1024,
+                "maximum": 65535
+            },
+            "rpc-username": {
+                "type": "string",
+                "format": "username"
+            }
+        }
+    }
+}, {
+    "type": "rpc",
+    "id": "rpc.transmissionbt.setschedulingsettings",
+    "params": {
+        "type": "object",
+        "properties": {
+            "alt-speed-time-enabled": {
+                "type": "boolean"
+            },
+            "begin-hour": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 23
+            },
+            "begin-minute": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 59
+            },
+            "end-hour": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 23
+            },
+            "end-minute": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 59
+            },
+            "days-sunday": {
+                "type": "boolean"
+            },
+            "days-monday": {
+                "type": "boolean"
+            },
+            "days-tuesday": {
+                "type": "boolean"
+            },
+            "days-wednesday": {
+                "type": "boolean"
+            },
+            "days-thursday": {
+                "type": "boolean"
+            },
+            "days-friday": {
+                "type": "boolean"
+            },
+            "days-saturday": {
+                "type": "boolean"
+            },
+            "idle-seeding-limit": {
+                "type": "integer",
+                "minimum": 0
+            },
+            "idle-seeding-limit-enabled": {
+                "type": "boolean"
+            },
+            "ratio-limit": {
+                "type": "number",
+                "minimum": 0
+            },
+            "ratio-limit-enabled": {
+                "type": "boolean"
+            }
+        }
+    }
+}]

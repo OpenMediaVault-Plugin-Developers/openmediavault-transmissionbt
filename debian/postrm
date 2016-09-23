@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -e
+
+. /etc/default/openmediavault
+. /usr/share/openmediavault/scripts/helper-functions
+
+case "$1" in
+    purge)
+        # Remove the configuration data.
+        omv_config_delete "/config/services/transmissionbt"
+
+        # Remove Zeroconf configuration.
+        omv_config_delete "/config/services/zeroconf/services/service[id='transmissionbt']"
+    ;;
+
+    remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

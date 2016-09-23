@@ -1,0 +1,67 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.peer",
+    "title": "BitTorrent - Peer",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/peer",
+        "iterable": false
+    },
+    "properties": {
+        "bind-address-ipv4": {
+            "type": "string",
+            "format": "ipv4",
+            "default": "0.0.0.0"
+        },
+        "bind-address-ipv6": {
+            "type": "string",
+            "default": "::"
+        },
+        "peer-limit-global": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 240
+        },
+        "peer-limit-per-torrent": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 60
+        },
+        "peer-socket-tos": {
+            "type": "string",
+            "enum": [
+                "default",
+                "lowcost",
+                "throughput",
+                "lowdelay",
+                "reliability"
+            ],
+            "default": "default"
+        },
+        "peer-port": {
+            "type": "integer",
+            "minimum": 1024,
+            "maximum": 65535,
+            "default": 51413
+        },
+        "peer-port-random-low": {
+            "type": "integer",
+            "minimum": 1024,
+            "maximum": 65535,
+            "default": 1024
+        },
+        "peer-port-random-high": {
+            "type": "integer",
+            "minimum": 1024,
+            "maximum": 65535,
+            "default": 65535
+        },
+        "peer-port-random-on-start": {
+            "type": "boolean",
+            "default": true
+        },
+        "port-forwarding-enabled": {
+            "type": "boolean",
+            "default": true
+        }
+    }
+}

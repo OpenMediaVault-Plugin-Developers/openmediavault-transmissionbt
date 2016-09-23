@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Stefan Thrane Overby <stoverby@gmail.com>, 2013-2014
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-transmissionbt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-18 06:27-0500\n"
+"PO-Revision-Date: 2014-11-14 19:51+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "% completed ..."
+msgstr "% færdig ..."
+
+msgid "100% completed ..."
+msgstr "100% færdig ..."
+
+msgid "Add Torrent by URL"
+msgstr "Tilføj Torrent med URL"
+
+msgid "Add torrent"
+msgstr "Tilføj torrent"
+
+msgid "Adding Torrent ..."
+msgstr "Tilføjer Torrent ..."
+
+msgid "Authentication"
+msgstr "Godkendelse"
+
+msgid "Auto sync"
+msgstr "Auto synk"
+
+msgid "Bandwidth"
+msgstr "Båndbredde"
+
+msgid "Begin"
+msgstr "Begynd"
+
+msgid "Bindings"
+msgstr "Bindinger"
+
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+msgid "Blocklists"
+msgstr "Sortlister"
+
+msgid "Cache Size"
+msgstr "Cachestørrelse"
+
+msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgstr "Cachestørrelse (i Mb) for at reducere læse og skrive antallet på disken."
+
+msgid "Changing place in queue for selected item(s)"
+msgstr "Ændre plads i køen for valgte emne(r)"
+
+msgid "Checking files"
+msgstr "Kontroller filer"
+
+msgid "DL-rate"
+msgstr "DL-rate"
+
+msgid "Daily"
+msgstr "Daglig"
+
+msgid "Date & Time"
+msgstr "Dato & Tid"
+
+msgid "Date added"
+msgstr "Dato Tilføjet"
+
+msgid "Date done"
+msgstr "Dato Færdig"
+
+msgid "Days"
+msgstr "Dage"
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "Delete Local Data"
+msgstr "Slet Lokal Data"
+
+msgid "Delete torrent"
+msgstr "Slet torrent"
+
+msgid "Delete torrents added from the watch directory."
+msgstr "Slet tilføjet torrents fra overvågnings mappen."
+
+msgid "Deleting torrent ..."
+msgstr "Sletter torrent ..."
+
+msgid "Directory"
+msgstr "Mappe"
+
+msgid ""
+"Directory to keep downloads. If incomplete is enabled, only complete "
+"downloads will be stored here."
+msgstr "Mappe til at gemme downloads. Hvis ufærdig er aktiveret, vil kun færdige downloads gemmes her."
+
+msgid "Directory to keep files in until torrent is complete."
+msgstr "Mappe til at gemme filer, indtil torrent er færdig."
+
+msgid "Distributed hash table (DHT)."
+msgstr "Distribueret hashtabel (DHT)."
+
+msgid "Done"
+msgstr "Færdig"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Download Queue"
+msgstr "Download Kø"
+
+msgid "Downloading"
+msgstr "Downloader"
+
+msgid "ETA"
+msgstr "ETA"
+
+msgid "Enable"
+msgstr "Aktiver"
+
+msgid "Enable &micro;TP."
+msgstr "Aktiver &micro;TP."
+
+msgid "Enable DHT."
+msgstr "Aktiver DHT."
+
+msgid "Enable LPD."
+msgstr "Aktiver LPD."
+
+msgid "Enable PEX."
+msgstr "Aktiver PEX."
+
+msgid "Enable Turtle Mode."
+msgstr "Aktiver Turtle Modus."
+
+msgid "Enable Watch directory."
+msgstr "Aktiver Overvågnings mappe."
+
+msgid "Enable download limit."
+msgstr "Aktiver download grænse."
+
+msgid "Enable incomplete directory."
+msgstr "Aktiver ufærdig mappe."
+
+msgid "Enable paused torrent scraping."
+msgstr "Aktiver pauset torrent høstning."
+
+msgid "Enable port forwarding via NAT-PMP or UPnP."
+msgstr "Aktiver port forwarding via NAT-PMP eller UPnP."
+
+msgid "Enable upload limit."
+msgstr "Aktiver upload grænse."
+
+msgid "Encryption"
+msgstr "Kryptering"
+
+msgid "End"
+msgstr "Slut"
+
+msgid "Enter path to script."
+msgstr "Indtast sti til script."
+
+msgid "Error"
+msgstr "Fejl"
+
+msgid "Event"
+msgstr "Begivenhed"
+
+msgid "Fast"
+msgstr "Hurtig"
+
+msgid "Files"
+msgstr "Filer"
+
+msgid "Files and locations"
+msgstr "Filer og Placering"
+
+msgid "Forced"
+msgstr "Tvunget"
+
+msgid "Friday"
+msgstr "Fredag"
+
+msgid "Full"
+msgstr "Fuldt"
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "General settings"
+msgstr "Generelle indstillinger"
+
+msgid "Global"
+msgstr "Global"
+
+msgid "Hourly"
+msgstr "Timebasis"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
+msgstr "IPv4 adresse, der skal lyttes på. Brug 0.0.0.0 til alle værts IPer."
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 address to listen on. Use :: for all host IPs."
+msgstr "IPv6 adresse, der skal lyttes på. Brug :: til alle værts IPer."
+
+msgid "Idle"
+msgstr "Ledig"
+
+msgid "Idle Minutes"
+msgstr "Ledige Minutter"
+
+msgid "Incomplete"
+msgstr "Ufærdig"
+
+msgid "Infinite"
+msgstr "Uendelig"
+
+msgid "Info"
+msgstr "Oplysning"
+
+msgid "Invalid Uri."
+msgstr "Ugyldig Uri."
+
+msgid "Lazy Bitfield"
+msgstr "Doven Bitfelt"
+
+msgid "Limit Download"
+msgstr "Begræns Download"
+
+msgid "Limit Upload"
+msgstr "Begræns Upload"
+
+msgid "Limit download speed. Value is kb/s."
+msgstr "Begræns download hastighed. Værdi er i kb/s."
+
+msgid "Limit upload speed. Value is kb/s."
+msgstr "Begræns upload hastighed. Værdi er i kb/s."
+
+msgid "Limits"
+msgstr "Begrænsninger"
+
+msgid "Local Peer Discovery (LPD)."
+msgstr "Lokal Peer Opdagelse (LPD)"
+
+msgid "Locations"
+msgstr "Placeringer"
+
+msgid ""
+"Make sure the group 'debian-transmission' has read/write access to the "
+"shared folder."
+msgstr "Vær sikker på, at gruppen 'debian-transmission' har læse/skrive adgang til den delte mappe."
+
+msgid "May help get around some ISP filtering."
+msgstr "Hjælper måske med, at komme omkring nogle ISP filtere."
+
+msgid "Message Level"
+msgstr "Besked Niveau"
+
+msgid "Micro Transport Protocol (&micro;TP)."
+msgstr "Micro Transport Protokol (&micro;TP)."
+
+msgid "Missing Status: "
+msgstr "Manglende Status:"
+
+msgid "Mode for preallocating files."
+msgstr "Modus til efterallokering filer"
+
+msgid "Monday"
+msgstr "Mandag"
+
+msgid "Monthly"
+msgstr "Månedlig"
+
+msgid "Move down"
+msgstr "Flyt ned"
+
+msgid "Move to bottom"
+msgstr "Flyt til bund"
+
+msgid "Move to top"
+msgstr "Flyt til top"
+
+msgid "Move up"
+msgstr "Flyt op"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "Not available"
+msgstr "Ikke tilgængelig"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "Fra"
+
+msgid "Password"
+msgstr "Adgangskode"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Peer"
+msgstr "Peer"
+
+msgid "Peer Ports"
+msgstr "Peer Porte"
+
+msgid "Peer exchange (PEX)"
+msgstr "Peer udveksling (PEX)"
+
+msgid "Peer port"
+msgstr "Peer port"
+
+msgid "Peers"
+msgstr "Peers"
+
+msgid "Per torrent"
+msgstr "Per torrent"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Port forwarding"
+msgstr "Port forwarding"
+
+msgid "Port to listen for incoming peer connections."
+msgstr "Port der, skal lyttes på for indgående peer forbindelser."
+
+msgid "Port to open and listen for RPC/Web requests on."
+msgstr "Port der, skal åbnes og lyttes på for RPC / Web anmodninger."
+
+msgid "Postfix"
+msgstr "Postfix"
+
+msgid "Postfix partially downloaded files with .part."
+msgstr "Postfix delvist downloadet filer med .part."
+
+msgid "Preallocation"
+msgstr "Efterallokering"
+
+msgid "Preferred"
+msgstr "Foretrukken"
+
+msgid "Queue"
+msgstr "Kø"
+
+msgid "Queue Stalled"
+msgstr "Kø Stoppet"
+
+msgid "Queued to check files"
+msgstr "I kø for at kontroller filer"
+
+msgid "Queued to download"
+msgstr "I kø til download"
+
+msgid "Queued to seed"
+msgstr "I kø til seed"
+
+msgid "Queuing"
+msgstr "Sætter i kø"
+
+msgid "RPC/WebUI Settings"
+msgstr "RPC/WebUI Indstillinger"
+
+msgid "Random Port"
+msgstr "Tilfældig Port"
+
+msgid "Random Port on start."
+msgstr "Tilfældig Port ved start."
+
+msgid "Random high"
+msgstr "Vilkårlig høj"
+
+msgid "Random low"
+msgstr "Vilkårlig lav"
+
+msgid "Ratio"
+msgstr "Forhold"
+
+msgid "Ratio Limit"
+msgstr "Forholdsgrænse"
+
+msgid "Require clients to authenticate themselves."
+msgstr "Kræv at, klienter godkender sig."
+
+msgid "Resume"
+msgstr "Genoptag"
+
+msgid "Run a script at torrent completion."
+msgstr "Kør et script ved torrent færdiggørelse."
+
+msgid "Saturday"
+msgstr "Lørdag"
+
+msgid "Scheduling"
+msgstr "Planlægning"
+
+msgid "Scrape paused torrents."
+msgstr "Høst pauset torrents."
+
+msgid "Script"
+msgstr "Script"
+
+msgid "Script to process after torrent finishes"
+msgstr "Script, der udføres efter torrent er færdig"
+
+msgid "Seed"
+msgstr "Seed"
+
+msgid "Seed Queue"
+msgstr "Seed Kø"
+
+msgid "Seeding"
+msgstr "Seeder"
+
+msgid "Seeding Limit"
+msgstr "Seed Grænse"
+
+msgid "Set verbosity of transmission messages."
+msgstr "Angiv informationsniveauet af transmission beskeder."
+
+msgid "Sets transmission's file mode creation mask."
+msgstr "Angiver transmissions fil-modus oprettelses maske."
+
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgid "Shared folder"
+msgstr "Delt mappe"
+
+msgid "Size"
+msgstr "Størrelse"
+
+msgid "Socket TOS"
+msgstr "Socket TOS"
+
+msgid "Speed"
+msgstr "Hastighed"
+
+msgid "Stalled Minutes"
+msgstr "Stoppet Minutter"
+
+msgid "Start Torrents"
+msgstr "Start Torrents"
+
+msgid "Start download"
+msgstr "Start download"
+
+msgid "Start torrents as soon as they are added."
+msgstr "Start torrents så snart de er tilføjet."
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Stop seeding after being idle for N minutes."
+msgstr "Stop med at seede efter at have været ledig i N minutter."
+
+msgid "Sunday"
+msgstr "Søndag"
+
+msgid "Sync frequency"
+msgstr "Synk frekvens"
+
+msgid "The URL of the blocklist."
+msgstr "URLen af sortlisten."
+
+msgid "The peer connection encryption mode."
+msgstr "Peer forbindelses krypterings modus."
+
+msgid "Thursday"
+msgstr "Torsdag"
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "Torrent is stopped"
+msgstr "Torrent er stoppet"
+
+msgid "Torrents"
+msgstr "Torrents"
+
+msgid ""
+"Torrents that have not shared data for queue-stalled-minutes are treated as "
+"'stalled' and are not counted against the queue-download-size and seed-"
+"queue-size limits."
+msgstr "Torrents, der ikke har delt data til kø-stoppet-minutter, bliver behandlet som 'stoppet' og ikke medregnet i kø-download-størrelse og seed-kø-størrelse grænserne."
+
+msgid ""
+"Transmission will only download download-queue-size non-stalled torrents at "
+"once."
+msgstr "Transmission vil kun downloade download-kø-størrelse ikke-stoppet torrents med det samme."
+
+msgid ""
+"Transmission will only seed seed-queue-size non-stalled torrents at once."
+msgstr "Transmission vil kun seede seed-kø-størrelse ikke-stoppet torrents med det samme."
+
+msgid "Transmission will only seed until ratio limit is reached."
+msgstr "Transmission vil kun seede indtil forholdsgrænsen er nået."
+
+msgid "Trash original"
+msgstr "Slet original"
+
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+msgid "Turtle Mode"
+msgstr "Turtle Modus"
+
+msgid "Turtle Mode download speed. Value is kb/s."
+msgstr "Turtle Modus download hastighed. Værdi er i kb/s."
+
+msgid "Turtle Mode upload speed. Value is kb/s."
+msgstr "Turtle Mode upload hastighed. Værdi er i kb/s."
+
+msgid "UL-rate"
+msgstr "UL-rate"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Umask"
+msgstr "Ikke maskeret"
+
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgid "Update blocklists automatically."
+msgstr "Opdater sortliste automatisk."
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Upload slots"
+msgstr "Upload slots"
+
+msgid "Upload torrent"
+msgstr "Upload torrent"
+
+msgid "Uri"
+msgstr "Uri"
+
+msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+msgstr "Url at tilgå RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+
+msgid "Use blocklists."
+msgstr "Brug sortlister."
+
+msgid "Used for client authentication."
+msgstr "Brugt til klient godkendelse."
+
+msgid "Username"
+msgstr "Brugernavn"
+
+msgid "Watch"
+msgstr "Overvåg"
+
+msgid "Watch a directory for torrent files and add them to transmission"
+msgstr "Overvåg en mappe efter torrent filer og tilføj dem til transmission"
+
+msgid "Wednesday"
+msgstr "Onsdag"
+
+msgid "Weekly"
+msgstr "Ugenligt"
+
+msgid "When enabled, this will toggle the Turtle Mode."
+msgstr "Når aktiveret, vil dettte skifte Turtle Modus."
+
+msgid "default"
+msgstr "standard"
+
+msgid "lowcost"
+msgstr "lav omkostninger"
+
+msgid "lowdelay"
+msgstr "lav forsinkelse"
+
+msgid "reliability"
+msgstr "pålidelighed"
+
+msgid "throughput"
+msgstr "kapacitet"

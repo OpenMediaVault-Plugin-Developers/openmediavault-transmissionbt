@@ -1,0 +1,36 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.rpc",
+    "title": "BitTorrent - RPC",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/rpc",
+        "iterable": false
+    },
+    "properties": {
+        "rpc-authentication-required": {
+            "type": "boolean",
+            "default": true
+        },
+        "rpc-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "rpc-password": {
+            "type": "string",
+            "format": "regex",
+            "pattern": "\/^[^'\"\\\\]+$\/",
+            "default": "openmediavault"
+        },
+        "rpc-port": {
+            "type": "integer",
+            "minimum": 1024,
+            "maximum": 65535,
+            "default": 9091
+        },
+        "rpc-username": {
+            "type": "string",
+            "format": "username",
+            "default": "admin"
+        }
+    }
+}

@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Toshihiro Kan <kansuke4649@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-transmissionbt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-18 06:27-0500\n"
+"PO-Revision-Date: 2014-11-14 19:51+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Japanese (Japan) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "% completed ..."
+msgstr "% 完了しました ..."
+
+msgid "100% completed ..."
+msgstr "100% 完了しました ..."
+
+msgid "Add Torrent by URL"
+msgstr "URLによるTorrentの追加"
+
+msgid "Add torrent"
+msgstr "トレントの追加"
+
+msgid "Adding Torrent ..."
+msgstr "Torrentを追加しています ..."
+
+msgid "Authentication"
+msgstr "認証"
+
+msgid "Auto sync"
+msgstr "自動同期"
+
+msgid "Bandwidth"
+msgstr "帯域幅"
+
+msgid "Begin"
+msgstr "開始"
+
+msgid "Bindings"
+msgstr "バインディング"
+
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+msgid "Blocklists"
+msgstr "ブロックリスト"
+
+msgid "Cache Size"
+msgstr "キャッシュサイズ"
+
+msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgstr "キャッシュサイズ(Mb単位)はディスクに対する読み、書きの回数を減らします。"
+
+msgid "Changing place in queue for selected item(s)"
+msgstr "選択(複数可)されたアイテムのキューの場所を変更"
+
+msgid "Checking files"
+msgstr "ファイルのチェック"
+
+msgid "DL-rate"
+msgstr "DLレート"
+
+msgid "Daily"
+msgstr "日次"
+
+msgid "Date & Time"
+msgstr "日付 & 時刻"
+
+msgid "Date added"
+msgstr "日付を追加"
+
+msgid "Date done"
+msgstr "完了の日付"
+
+msgid "Days"
+msgstr "日"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "Delete Local Data"
+msgstr "ローカルデータを削除"
+
+msgid "Delete torrent"
+msgstr "torrentを削除"
+
+msgid "Delete torrents added from the watch directory."
+msgstr "監視ディレクトリから追加されたtorrentを削除します。"
+
+msgid "Deleting torrent ..."
+msgstr "torrentを削除しています ..."
+
+msgid "Directory"
+msgstr "ディレクトリ"
+
+msgid ""
+"Directory to keep downloads. If incomplete is enabled, only complete "
+"downloads will be stored here."
+msgstr "ダウンロードを維持するためのディレクトリ。不完全ファイルが有効になっている場合、ダウンロードが完了したファイルのみ、ここに格納されます。"
+
+msgid "Directory to keep files in until torrent is complete."
+msgstr "torrentが完了するまでのファイルを保存するディレクトリ。"
+
+msgid "Distributed hash table (DHT)."
+msgstr "分散ハッシュテーブル(DHT)。"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Download Queue"
+msgstr "ダウンロードキュー"
+
+msgid "Downloading"
+msgstr "ダウンロード中"
+
+msgid "ETA"
+msgstr "ETA"
+
+msgid "Enable"
+msgstr "有効"
+
+msgid "Enable &micro;TP."
+msgstr "&micro;TPを有効にする。"
+
+msgid "Enable DHT."
+msgstr "DHTを有効にする。"
+
+msgid "Enable LPD."
+msgstr "LPDを有効にする。"
+
+msgid "Enable PEX."
+msgstr "PEXを有効にする。"
+
+msgid "Enable Turtle Mode."
+msgstr "タートルモードを有効にする。"
+
+msgid "Enable Watch directory."
+msgstr "ディレクトリ監視を有効にする。"
+
+msgid "Enable download limit."
+msgstr "ダウンロードリミットを有効にする。"
+
+msgid "Enable incomplete directory."
+msgstr "不完全ディレクトリを有効にする。"
+
+msgid "Enable paused torrent scraping."
+msgstr "一時停止torrentスクレイピングを有効にする。"
+
+msgid "Enable port forwarding via NAT-PMP or UPnP."
+msgstr "NAT-PMPまたはUPnPによるポートフォワーディングを有効にする。"
+
+msgid "Enable upload limit."
+msgstr "アップロードリミットを有効にする。"
+
+msgid "Encryption"
+msgstr "暗号化"
+
+msgid "End"
+msgstr "しゅる用"
+
+msgid "Enter path to script."
+msgstr "スクリプトのパスを入力してください。"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Event"
+msgstr "イベント"
+
+msgid "Fast"
+msgstr "ファスト"
+
+msgid "Files"
+msgstr "ファイル"
+
+msgid "Files and locations"
+msgstr "ファイルと場所"
+
+msgid "Forced"
+msgstr "強制"
+
+msgid "Friday"
+msgstr "金曜"
+
+msgid "Full"
+msgstr "フル"
+
+msgid "General"
+msgstr "一般"
+
+msgid "General settings"
+msgstr "一般設定"
+
+msgid "Global"
+msgstr "グローバル"
+
+msgid "Hourly"
+msgstr "毎時"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
+msgstr "待ち受けるIPv4アドレス。0.0.0.0を設定するとすべてのホストIPから受け付けます。"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 address to listen on. Use :: for all host IPs."
+msgstr "待ち受けるIPv6アドレス。:: を設定するとすべてのホストIPから受け付けます。"
+
+msgid "Idle"
+msgstr "アイドル"
+
+msgid "Idle Minutes"
+msgstr "アイドルミニッツ"
+
+msgid "Incomplete"
+msgstr "不完全"
+
+msgid "Infinite"
+msgstr "制限なし"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Invalid Uri."
+msgstr "不正なUriです。"
+
+msgid "Lazy Bitfield"
+msgstr "レイジービットフィールド"
+
+msgid "Limit Download"
+msgstr "ダウンロード制限"
+
+msgid "Limit Upload"
+msgstr "アップロード制限"
+
+msgid "Limit download speed. Value is kb/s."
+msgstr "ダウンロードスピードの制限。値はkb/sです。"
+
+msgid "Limit upload speed. Value is kb/s."
+msgstr "アップロードスピードの制限。値はkb/sです。"
+
+msgid "Limits"
+msgstr "制限"
+
+msgid "Local Peer Discovery (LPD)."
+msgstr "Local Peer Discovery (LPD)."
+
+msgid "Locations"
+msgstr "場所"
+
+msgid ""
+"Make sure the group 'debian-transmission' has read/write access to the "
+"shared folder."
+msgstr "'debian-transmission' グループが共有フォルダに読み/書きの権限があることを確認してください。"
+
+msgid "May help get around some ISP filtering."
+msgstr "いくつかのISPのフィルタリングを回避するのに役立つことがあります。"
+
+msgid "Message Level"
+msgstr "メッセージレベル"
+
+msgid "Micro Transport Protocol (&micro;TP)."
+msgstr "Micro Transport Protocol (&micro;TP)."
+
+msgid "Missing Status: "
+msgstr "不足の状態:"
+
+msgid "Mode for preallocating files."
+msgstr "ファイルを事前に割り当てるためのモード。"
+
+msgid "Monday"
+msgstr "月曜"
+
+msgid "Monthly"
+msgstr "毎月"
+
+msgid "Move down"
+msgstr "下へ移動"
+
+msgid "Move to bottom"
+msgstr "一番下へ移動"
+
+msgid "Move to top"
+msgstr "一番上へ移動"
+
+msgid "Move up"
+msgstr "上へ移動"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "None"
+msgstr "None"
+
+msgid "Not available"
+msgstr "利用不可"
+
+msgid "OK"
+msgstr "はい"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Pause"
+msgstr "一時停止"
+
+msgid "Peer"
+msgstr "ピア"
+
+msgid "Peer Ports"
+msgstr "ピアポート"
+
+msgid "Peer exchange (PEX)"
+msgstr "ピア変換(PEX)"
+
+msgid "Peer port"
+msgstr "ピアポート"
+
+msgid "Peers"
+msgstr "ピア"
+
+msgid "Per torrent"
+msgstr "ピアtorrent"
+
+msgid "Port"
+msgstr "ポート"
+
+msgid "Port forwarding"
+msgstr "ポートフォワーディング"
+
+msgid "Port to listen for incoming peer connections."
+msgstr "着信ピア接続を待ち受けるポート。"
+
+msgid "Port to open and listen for RPC/Web requests on."
+msgstr " RPC/Webリクエストのためのポートを開き、待ち受けます。"
+
+msgid "Postfix"
+msgstr "Postfix"
+
+msgid "Postfix partially downloaded files with .part."
+msgstr "Postfixは部分的に.partをつけてファイルをダウンロードしました。"
+
+msgid "Preallocation"
+msgstr "事前割り当て"
+
+msgid "Preferred"
+msgstr "優先度"
+
+msgid "Queue"
+msgstr "キュー"
+
+msgid "Queue Stalled"
+msgstr "キューが失速しました"
+
+msgid "Queued to check files"
+msgstr "チェックファイルをキューに入れました"
+
+msgid "Queued to download"
+msgstr "ダウンロードをキューに入れました"
+
+msgid "Queued to seed"
+msgstr "シードをキューに入れました"
+
+msgid "Queuing"
+msgstr "キューイング"
+
+msgid "RPC/WebUI Settings"
+msgstr "RPC/WebUI設定"
+
+msgid "Random Port"
+msgstr "ランダムポート"
+
+msgid "Random Port on start."
+msgstr "開始時のランダムポート。"
+
+msgid "Random high"
+msgstr "ランダムハイ"
+
+msgid "Random low"
+msgstr "ランダムロウ"
+
+msgid "Ratio"
+msgstr "比率"
+
+msgid "Ratio Limit"
+msgstr "比率の制限"
+
+msgid "Require clients to authenticate themselves."
+msgstr "自分自身を認証するためにクライアントが必要になります。"
+
+msgid "Resume"
+msgstr "リジューム"
+
+msgid "Run a script at torrent completion."
+msgstr "torrent完了時にスクリプトを実行します。"
+
+msgid "Saturday"
+msgstr "土曜"
+
+msgid "Scheduling"
+msgstr "スケジューリング"
+
+msgid "Scrape paused torrents."
+msgstr "スクレイプポーズしたtorrent。"
+
+msgid "Script"
+msgstr "スクリプト"
+
+msgid "Script to process after torrent finishes"
+msgstr "トレントが終了した後に実行されるスクリプト"
+
+msgid "Seed"
+msgstr "シード"
+
+msgid "Seed Queue"
+msgstr "シードキュー"
+
+msgid "Seeding"
+msgstr "シーディング"
+
+msgid "Seeding Limit"
+msgstr "シーディング制限"
+
+msgid "Set verbosity of transmission messages."
+msgstr "伝送メッセージの詳細度を設定します。"
+
+msgid "Sets transmission's file mode creation mask."
+msgstr "伝送されたファイルモードの作成マスクを設定します。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Shared folder"
+msgstr "共有フォルダ"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Socket TOS"
+msgstr "ソケットTOS"
+
+msgid "Speed"
+msgstr "スピード"
+
+msgid "Stalled Minutes"
+msgstr "失速した分数"
+
+msgid "Start Torrents"
+msgstr "Torrentの開始"
+
+msgid "Start download"
+msgstr "ダウンロードの開始"
+
+msgid "Start torrents as soon as they are added."
+msgstr "追加されたtorrentはすぐに開始されます。"
+
+msgid "Status"
+msgstr "状態"
+
+msgid "Stop seeding after being idle for N minutes."
+msgstr "N分間アイドル状態になった場合、シーディングは停止します。"
+
+msgid "Sunday"
+msgstr "日曜"
+
+msgid "Sync frequency"
+msgstr "同期頻度"
+
+msgid "The URL of the blocklist."
+msgstr "ブロックリストのURL。"
+
+msgid "The peer connection encryption mode."
+msgstr "ピア接続の暗号化モード。"
+
+msgid "Thursday"
+msgstr "木曜"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Torrent is stopped"
+msgstr "Torrentは停止しました。"
+
+msgid "Torrents"
+msgstr "トレント"
+
+msgid ""
+"Torrents that have not shared data for queue-stalled-minutes are treated as "
+"'stalled' and are not counted against the queue-download-size and seed-"
+"queue-size limits."
+msgstr "キュー失速時間のためにデータを共有していないトレントが'失速'とキュー·ダウンロード·サイズおよびシードキューサイズの制限に対してカウントされないようにします。"
+
+msgid ""
+"Transmission will only download download-queue-size non-stalled torrents at "
+"once."
+msgstr "伝送はダウンロードキューサイズ、非失速torrentは一度だけダウンロードされます。"
+
+msgid ""
+"Transmission will only seed seed-queue-size non-stalled torrents at once."
+msgstr "伝送はシードキューサイズ、非失速torrentは一度だけシードされます。"
+
+msgid "Transmission will only seed until ratio limit is reached."
+msgstr "伝送はリミットの上限に達するまでシードされます。"
+
+msgid "Trash original"
+msgstr "オリジナルをゴミ箱へ"
+
+msgid "Tuesday"
+msgstr "火曜"
+
+msgid "Turtle Mode"
+msgstr "タートルモード"
+
+msgid "Turtle Mode download speed. Value is kb/s."
+msgstr "タートルモードのダウンロードスピード。値は kb/s。"
+
+msgid "Turtle Mode upload speed. Value is kb/s."
+msgstr "タートルモードのアップロードスピード。値は kb/s。"
+
+msgid "UL-rate"
+msgstr "ULレート"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Umask"
+msgstr "Umask"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Update blocklists automatically."
+msgstr "自動的にブロックリストを更新します。"
+
+msgid "Upload"
+msgstr "アップロード"
+
+msgid "Upload slots"
+msgstr "アップロードスロット"
+
+msgid "Upload torrent"
+msgstr "アップロードtorrent"
+
+msgid "Uri"
+msgstr "Uri"
+
+msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+msgstr "RPCアクセスのためのUrl (http://localhost/&lt;URI&gt;/(rpc|web)。"
+
+msgid "Use blocklists."
+msgstr "ブロックリストを使用します。"
+
+msgid "Used for client authentication."
+msgstr "クライアント認証を使用します。"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Watch"
+msgstr "監視"
+
+msgid "Watch a directory for torrent files and add them to transmission"
+msgstr "torrentファイルのディレクトリを監視し、送信にそれらを追加します"
+
+msgid "Wednesday"
+msgstr "水曜"
+
+msgid "Weekly"
+msgstr "毎週"
+
+msgid "When enabled, this will toggle the Turtle Mode."
+msgstr "これが有効になると、タートルモードを切り替えます。"
+
+msgid "default"
+msgstr "デフォルト"
+
+msgid "lowcost"
+msgstr "ローコスト"
+
+msgid "lowdelay"
+msgstr "低遅延"
+
+msgid "reliability"
+msgstr "信頼性"
+
+msgid "throughput"
+msgstr "スループット"

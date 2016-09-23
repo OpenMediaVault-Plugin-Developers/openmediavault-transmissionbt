@@ -1,0 +1,609 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Yuri Chornoivan <yurchor@gmail.com>, 2011
+# zubr139, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-transmissionbt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-18 06:27-0500\n"
+"PO-Revision-Date: 2014-11-14 19:51+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "% completed ..."
+msgstr ""
+
+msgid "100% completed ..."
+msgstr ""
+
+msgid "Add Torrent by URL"
+msgstr "Додати торрент за URL"
+
+msgid "Add torrent"
+msgstr ""
+
+msgid "Adding Torrent ..."
+msgstr "Додається торрент ..."
+
+msgid "Authentication"
+msgstr "Ідентифікація"
+
+msgid "Auto sync"
+msgstr "Автоматична синхронізація"
+
+msgid "Bandwidth"
+msgstr "Ширина смуги"
+
+msgid "Begin"
+msgstr ""
+
+msgid "Bindings"
+msgstr ""
+
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+msgid "Blocklists"
+msgstr "Чорні списки"
+
+msgid "Cache Size"
+msgstr ""
+
+msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgstr ""
+
+msgid "Changing place in queue for selected item(s)"
+msgstr ""
+
+msgid "Checking files"
+msgstr ""
+
+msgid "DL-rate"
+msgstr ""
+
+msgid "Daily"
+msgstr "Щодня"
+
+msgid "Date & Time"
+msgstr ""
+
+msgid "Date added"
+msgstr ""
+
+msgid "Date done"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Debug"
+msgstr "Діагностика"
+
+msgid "Delete Local Data"
+msgstr ""
+
+msgid "Delete torrent"
+msgstr ""
+
+msgid "Delete torrents added from the watch directory."
+msgstr ""
+
+msgid "Deleting torrent ..."
+msgstr ""
+
+msgid "Directory"
+msgstr ""
+
+msgid ""
+"Directory to keep downloads. If incomplete is enabled, only complete "
+"downloads will be stored here."
+msgstr ""
+
+msgid "Directory to keep files in until torrent is complete."
+msgstr ""
+
+msgid "Distributed hash table (DHT)."
+msgstr ""
+
+msgid "Done"
+msgstr "Виконано"
+
+msgid "Download"
+msgstr "Завантаження"
+
+msgid "Download Queue"
+msgstr ""
+
+msgid "Downloading"
+msgstr ""
+
+msgid "ETA"
+msgstr ""
+
+msgid "Enable"
+msgstr "Увімкнути"
+
+msgid "Enable &micro;TP."
+msgstr ""
+
+msgid "Enable DHT."
+msgstr "Увімкнути DHT."
+
+msgid "Enable LPD."
+msgstr "Увімкнути LPD."
+
+msgid "Enable PEX."
+msgstr "Увімкнути PEX."
+
+msgid "Enable Turtle Mode."
+msgstr ""
+
+msgid "Enable Watch directory."
+msgstr ""
+
+msgid "Enable download limit."
+msgstr ""
+
+msgid "Enable incomplete directory."
+msgstr ""
+
+msgid "Enable paused torrent scraping."
+msgstr ""
+
+msgid "Enable port forwarding via NAT-PMP or UPnP."
+msgstr ""
+
+msgid "Enable upload limit."
+msgstr ""
+
+msgid "Encryption"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Enter path to script."
+msgstr ""
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid "Event"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "Files"
+msgstr "Файли"
+
+msgid "Files and locations"
+msgstr ""
+
+msgid "Forced"
+msgstr ""
+
+msgid "Friday"
+msgstr "П’ятниця"
+
+msgid "Full"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "General settings"
+msgstr ""
+
+msgid "Global"
+msgstr ""
+
+msgid "Hourly"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "IPv4"
+msgstr ""
+
+msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
+msgstr ""
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 address to listen on. Use :: for all host IPs."
+msgstr ""
+
+msgid "Idle"
+msgstr "Неактивний"
+
+msgid "Idle Minutes"
+msgstr ""
+
+msgid "Incomplete"
+msgstr "Не завершено"
+
+msgid "Infinite"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Invalid Uri."
+msgstr ""
+
+msgid "Lazy Bitfield"
+msgstr ""
+
+msgid "Limit Download"
+msgstr ""
+
+msgid "Limit Upload"
+msgstr ""
+
+msgid "Limit download speed. Value is kb/s."
+msgstr ""
+
+msgid "Limit upload speed. Value is kb/s."
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Local Peer Discovery (LPD)."
+msgstr ""
+
+msgid "Locations"
+msgstr ""
+
+msgid ""
+"Make sure the group 'debian-transmission' has read/write access to the "
+"shared folder."
+msgstr ""
+
+msgid "May help get around some ISP filtering."
+msgstr ""
+
+msgid "Message Level"
+msgstr ""
+
+msgid "Micro Transport Protocol (&micro;TP)."
+msgstr ""
+
+msgid "Missing Status: "
+msgstr ""
+
+msgid "Mode for preallocating files."
+msgstr ""
+
+msgid "Monday"
+msgstr "Понеділок"
+
+msgid "Monthly"
+msgstr ""
+
+msgid "Move down"
+msgstr ""
+
+msgid "Move to bottom"
+msgstr ""
+
+msgid "Move to top"
+msgstr ""
+
+msgid "Move up"
+msgstr ""
+
+msgid "Name"
+msgstr "Назва"
+
+msgid "None"
+msgstr "Нічого"
+
+msgid "Not available"
+msgstr ""
+
+msgid "OK"
+msgstr "Гаразд"
+
+msgid "Off"
+msgstr ""
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Pause"
+msgstr "Пауза"
+
+msgid "Peer"
+msgstr ""
+
+msgid "Peer Ports"
+msgstr ""
+
+msgid "Peer exchange (PEX)"
+msgstr ""
+
+msgid "Peer port"
+msgstr ""
+
+msgid "Peers"
+msgstr "Вузли"
+
+msgid "Per torrent"
+msgstr ""
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Port forwarding"
+msgstr ""
+
+msgid "Port to listen for incoming peer connections."
+msgstr ""
+
+msgid "Port to open and listen for RPC/Web requests on."
+msgstr ""
+
+msgid "Postfix"
+msgstr ""
+
+msgid "Postfix partially downloaded files with .part."
+msgstr ""
+
+msgid "Preallocation"
+msgstr ""
+
+msgid "Preferred"
+msgstr ""
+
+msgid "Queue"
+msgstr "Додати до черги"
+
+msgid "Queue Stalled"
+msgstr ""
+
+msgid "Queued to check files"
+msgstr ""
+
+msgid "Queued to download"
+msgstr ""
+
+msgid "Queued to seed"
+msgstr ""
+
+msgid "Queuing"
+msgstr ""
+
+msgid "RPC/WebUI Settings"
+msgstr ""
+
+msgid "Random Port"
+msgstr ""
+
+msgid "Random Port on start."
+msgstr ""
+
+msgid "Random high"
+msgstr ""
+
+msgid "Random low"
+msgstr ""
+
+msgid "Ratio"
+msgstr ""
+
+msgid "Ratio Limit"
+msgstr ""
+
+msgid "Require clients to authenticate themselves."
+msgstr ""
+
+msgid "Resume"
+msgstr ""
+
+msgid "Run a script at torrent completion."
+msgstr ""
+
+msgid "Saturday"
+msgstr "Субота"
+
+msgid "Scheduling"
+msgstr ""
+
+msgid "Scrape paused torrents."
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Script to process after torrent finishes"
+msgstr ""
+
+msgid "Seed"
+msgstr ""
+
+msgid "Seed Queue"
+msgstr ""
+
+msgid "Seeding"
+msgstr ""
+
+msgid "Seeding Limit"
+msgstr ""
+
+msgid "Set verbosity of transmission messages."
+msgstr ""
+
+msgid "Sets transmission's file mode creation mask."
+msgstr ""
+
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Shared folder"
+msgstr ""
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "Socket TOS"
+msgstr ""
+
+msgid "Speed"
+msgstr "Швидкість"
+
+msgid "Stalled Minutes"
+msgstr ""
+
+msgid "Start Torrents"
+msgstr ""
+
+msgid "Start download"
+msgstr ""
+
+msgid "Start torrents as soon as they are added."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop seeding after being idle for N minutes."
+msgstr ""
+
+msgid "Sunday"
+msgstr "Неділя"
+
+msgid "Sync frequency"
+msgstr ""
+
+msgid "The URL of the blocklist."
+msgstr ""
+
+msgid "The peer connection encryption mode."
+msgstr ""
+
+msgid "Thursday"
+msgstr "Четвер"
+
+msgid "Time"
+msgstr "Час"
+
+msgid "Torrent is stopped"
+msgstr ""
+
+msgid "Torrents"
+msgstr ""
+
+msgid ""
+"Torrents that have not shared data for queue-stalled-minutes are treated as "
+"'stalled' and are not counted against the queue-download-size and seed-"
+"queue-size limits."
+msgstr ""
+
+msgid ""
+"Transmission will only download download-queue-size non-stalled torrents at "
+"once."
+msgstr ""
+
+msgid ""
+"Transmission will only seed seed-queue-size non-stalled torrents at once."
+msgstr ""
+
+msgid "Transmission will only seed until ratio limit is reached."
+msgstr ""
+
+msgid "Trash original"
+msgstr ""
+
+msgid "Tuesday"
+msgstr "Вівторок"
+
+msgid "Turtle Mode"
+msgstr ""
+
+msgid "Turtle Mode download speed. Value is kb/s."
+msgstr ""
+
+msgid "Turtle Mode upload speed. Value is kb/s."
+msgstr ""
+
+msgid "UL-rate"
+msgstr ""
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Umask"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Невідомо"
+
+msgid "Update blocklists automatically."
+msgstr ""
+
+msgid "Upload"
+msgstr "Вивантажити"
+
+msgid "Upload slots"
+msgstr ""
+
+msgid "Upload torrent"
+msgstr ""
+
+msgid "Uri"
+msgstr ""
+
+msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+msgstr ""
+
+msgid "Use blocklists."
+msgstr ""
+
+msgid "Used for client authentication."
+msgstr ""
+
+msgid "Username"
+msgstr "Ім'я користувача"
+
+msgid "Watch"
+msgstr ""
+
+msgid "Watch a directory for torrent files and add them to transmission"
+msgstr ""
+
+msgid "Wednesday"
+msgstr "Середа"
+
+msgid "Weekly"
+msgstr ""
+
+msgid "When enabled, this will toggle the Turtle Mode."
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "lowcost"
+msgstr ""
+
+msgid "lowdelay"
+msgstr ""
+
+msgid "reliability"
+msgstr ""
+
+msgid "throughput"
+msgstr ""

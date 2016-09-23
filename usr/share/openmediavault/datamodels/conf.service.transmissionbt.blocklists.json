@@ -1,0 +1,33 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.blocklists",
+    "title": "BitTorrent - Blocklists",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/blocklists",
+        "iterable": false
+    },
+    "properties": {
+        "blocklist-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "blocklist-url": {
+            "type": "string",
+            "default": "http://www.example.com/blocklist"
+        },
+        "blocklist-sync-frequency": {
+            "type": "string",
+            "enum": [
+                "hourly",
+                "daily",
+                "weekly",
+                "monthly"
+            ],
+            "default": "daily"
+        },
+        "blocklist-sync-enabled": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

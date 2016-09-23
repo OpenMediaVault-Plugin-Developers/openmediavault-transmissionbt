@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+# Copyright (C) 2009-2012 Volker Theile <volker.theile@openmediavault.org>
+# Copyright (C) 2011-2012 Marcel Beck <marcel.beck@mbeck.org>
+# Copyright (C) 2013-2016 OpenMediaVault Plugin Developers
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+set -e
+
+. /etc/default/openmediavault
+. /usr/share/openmediavault/scripts/helper-functions
+
+OMV_AVAHIDAEMON_TRANSMISSIONBTSERVICE=${OMV_AVAHIDAEMON_TRANSMISSIONBTSERVICE:-"/etc/avahi/services/transmissionbt.service"}
+
+# Remove current service file.
+rm -f "${OMV_AVAHIDAEMON_TRANSMISSIONBTSERVICE}"
+
+# Is the service enabled?
+[ "$(omv_config_get "/config/services/transmissionbt/enable")" = "0" ] && exit 0
+
+# Announce this service via DNS-SD?
+[ "$(omv_config_get "/config/services/zeroconf/services/service[id='transmissionbt']/enable")" != "1" ] && exit 0
+
+# Get settings.
+name=$(omv_config_get "/config/services/zeroconf/services/service[id='transmissionbt']/name")
+port=$(omv_config_get "/config/services/transmissionbt/modules/rpc/rpc-port")
+
+# Create service file.
+cat <<EOF > ${OMV_AVAHIDAEMON_TRANSMISSIONBTSERVICE}
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+    <name replace-wildcards="yes">${name}</name>
+    <service>
+        <type>_http._tcp</type>
+        <port>${port}</port>
+        <txt-record>path=/transmission/web/</txt-record>
+    </service>
+</service-group>
+EOF

@@ -1,0 +1,208 @@
+#!/bin/sh
+#
+# Copyright (C) 2009-2012 Volker Theile <volker.theile@openmediavault.org>
+# Copyright (C) 2011-2012 Marcel Beck <marcel.beck@mbeck.org>
+# Copyright (C) 2013-2016 OpenMediaVault Plugin Developers
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+set -e
+
+. /etc/default/openmediavault
+. /usr/share/openmediavault/scripts/helper-functions
+
+OMV_TRANSMISSIONBT_CONFIG=${OMV_TRANSMISSIONBT_CONFIG:-"/etc/transmission-daemon/settings.json"}
+OMV_TRANSMISSIONBT_DEFAULT=${OMV_TRANSMISSIONBT_DEFAULT:-"/etc/default/transmission-daemon"}
+OMV_TRANSMISSIONBT_RPC_WHITELIST=${OMV_TRANSMISSIONBT_RPC_WHITELIST:-"*.*.*.*"}
+OMV_TRANSMISSIONBT_RPC_WHITELIST_ENABLED=${OMV_TRANSMISSIONBT_RPC_WHITELIST_ENABLED:-"true"}
+
+OMV_TRANSMISSIONBT_XPATH="/config/services/transmissionbt"
+
+get_shared_folder_path()
+{
+    local ref=$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/modules/filesandlocations/${1}-sharedfolderref")
+
+    echo "$(omv_get_sharedfolder_path ${ref})"
+}
+
+generate_default()
+{
+    xmlstarlet sel -t -m "${OMV_TRANSMISSIONBT_XPATH}" \
+        -o "# defaults for transmission-daemon" -n \
+        -o "# sourced by /etc/init.d/transmission-daemon" -n \
+        -n \
+        -o " Change to 0 to disable daemon" -n \
+        -v "concat('ENABLE_DAEMON=', enable)" -n \
+        -n \
+        -o "# This directory stores some runtime information, like torrent files" -n \
+        -o "# and links to the config file, which itself can be found in" -n \
+        -o "# /etc/transmission-daemon/settings.json" -n \
+        -o "CONFIG_DIR=\"/var/lib/transmission-daemon/info\"" -n \
+        -n \
+        -o "# Default options for daemon, see transmission-daemon(1) for more options" -n \
+        -o "OPTIONS=\"--config-dir \$CONFIG_DIR" -n \
+        ${OMV_CONFIG_FILE} | xmlstarlet unesc > ${OMV_TRANSMISSIONBT_DEFAULT}
+}
+
+generate_config()
+{
+    local download_shared_folder_path=$(get_shared_folder_path download)
+    local incomplete_shared_folder_path=$(get_shared_folder_path incomplete)
+    local watch_shared_folder_path=$(get_shared_folder_path watch)
+
+    xmlstarlet sel -t -m "/config/services/transmissionbt" \
+        -o "{" -n \
+        -v "concat('\"cache-size-mb\": ',cache-size-mb, ',')" -n \
+        -v "concat('\"dht-enabled\": ', dht-enabled, ',')" -n \
+        -v "concat('\"encryption\": ',encryption, ',')" -n \
+        -v "concat('\"lazy-bitfield-enabled\": ', lazy-bitfield-enabled, ',')" -n \
+        -v "concat('\"lpd-enabled\": ', lpd-enabled, ',')" -n \
+        -v "concat('\"message-level\": ',message-level, ',')" -n \
+        -v "concat('\"pex-enabled\": ', pex-enabled, ',')" -n \
+        -v "concat('\"scrape-paused-torrents-enabled\": ', scrape-paused-torrents-enabled, ',')" -n \
+        -v "concat('\"script-torrent-done-enabled\": ', script-torrent-done-enabled, ',')" -n \
+        -v "concat('\"script-torrent-done-filename\": \"', script-torrent-done-filename, '\",')" -n \
+        -v "concat('\"utp-enabled\": ', utp-enabled, ',')" -n \
+        \
+        -v "concat('\"alt-speed-enabled\": ', modules/bandwidth/alt-speed-enabled, ',')" -n \
+        -v "concat('\"alt-speed-down\": ', modules/bandwidth/alt-speed-down, ',')" -n \
+        -v "concat('\"alt-speed-up\": ', modules/bandwidth/alt-speed-up, ',')" -n \
+        -v "concat('\"speed-limit-down\": ', modules/bandwidth/speed-limit-down, ',')" -n \
+        -v "concat('\"speed-limit-down-enabled\": ', modules/bandwidth/speed-limit-down-enabled, ',')" -n \
+        -v "concat('\"speed-limit-up\": ', modules/bandwidth/speed-limit-up, ',')" -n \
+        -v "concat('\"speed-limit-up-enabled\": ', modules/bandwidth/speed-limit-up-enabled, ',')" -n \
+        -v "concat('\"upload-slots-per-torrent\": ', modules/bandwidth/upload-slots-per-torrent, ',')" -n \
+        \
+        -v "concat('\"blocklist-enabled\": ', modules/blocklists/blocklist-enabled, ',')" -n \
+        -v "concat('\"blocklist-url\": \"', modules/blocklists/blocklist-url, '\",')" -n \
+        \
+        -o "\"download-dir\": \"${download_shared_folder_path}/" -v "modules/filesandlocations/download-dir" -o "\"," -n \
+        -v "concat('\"incomplete-dir-enabled\": ', modules/filesandlocations/incomplete-dir-enabled, ',')" -n \
+        -o "\"incomplete-dir\": \"${incomplete_shared_folder_path}/" -v "modules/filesandlocations/incomplete-dir" -o "\"," -n \
+        -v "concat('\"preallocation\": ', modules/filesandlocations/preallocation, ',')" -n \
+        -v "concat('\"rename-partial-files\": ', modules/filesandlocations/rename-partial-files, ',')" -n \
+        -v "concat('\"start-added-torrents\": ', modules/filesandlocations/start-added-torrents, ',')" -n \
+        -v "concat('\"trash-original-torrent-files\": ', modules/filesandlocations/trash-original-torrent-files, ',')" -n \
+        -v "concat('\"umask\": ', modules/filesandlocations/umask, ',')" -n \
+        -v "concat('\"watch-dir-enabled\": ', modules/filesandlocations/watch-dir-enabled, ',')" -n \
+        -o "\"watch-dir\": \"${watch_shared_folder_path}/" -v "modules/filesandlocations/watch-dir" -o "\"," -n \
+        \
+        -v "concat('\"bind-address-ipv4\": \"', modules/peer/bind-address-ipv4, '\",')" -n \
+        -v "concat('\"bind-address-ipv6\": \"', modules/peer/bind-address-ipv6, '\",')" -n \
+        -v "concat('\"peer-limit-global\": ', modules/peer/peer-limit-global, ',')" -n \
+        -v "concat('\"peer-limit-per-torrent\": ', modules/peer/peer-limit-per-torrent, ',')" -n \
+        -v "concat('\"peer-socket-tos\": \"', modules/peer/peer-socket-tos, '\",')" -n \
+        \
+        -v "concat('\"peer-port\": ', modules/peer/peer-port, ',')" -n \
+        -v "concat('\"peer-port-random-high\": ', modules/peer/peer-port-random-high, ',')" -n \
+        -v "concat('\"peer-port-random-low\": ', modules/peer/peer-port-random-low, ',')" -n \
+        -v "concat('\"port-forwarding-enabled\": ', modules/peer/port-forwarding-enabled, ',')" -n \
+        -v "concat('\"peer-port-random-on-start\": ', modules/peer/peer-port-random-on-start, ',')" -n \
+        \
+        -v "concat('\"download-queue-enabled\": ', modules/queuing/download-queue-enabled, ',')" -n \
+        -v "concat('\"download-queue-size\": ', modules/queuing/download-queue-size, ',')" -n \
+        -v "concat('\"queue-stalled-enabled\": ', modules/queuing/queue-stalled-enabled, ',')" -n \
+        -v "concat('\"queue-stalled-minutes\": ', modules/queuing/queue-stalled-minutes, ',')" -n \
+        -v "concat('\"seed-queue-enabled\": ', modules/queuing/seed-queue-enabled, ',')" -n \
+        -v "concat('\"seed-queue-size\": ', modules/queuing/seed-queue-size, ',')" -n \
+        \
+        -v "concat('\"rpc-authentication-required\": ', modules/rpc/rpc-authentication-required, ',')" -n \
+        -v "concat('\"rpc-enabled\": ', modules/rpc/rpc-enabled, ',')" -n \
+        -v "concat('\"rpc-password\": \"', modules/rpc/rpc-password, '\",')" -n \
+        -v "concat('\"rpc-port\": ', modules/rpc/rpc-port, ',')" -n \
+        -v "concat('\"rpc-username\": \"', modules/rpc/rpc-username, '\",')" -n \
+        -o "\"rpc-whitelist\": \"${OMV_TRANSMISSIONBT_RPC_WHITELIST}\"," -n \
+        -o "\"rpc-whitelist-enabled\": ${OMV_TRANSMISSIONBT_RPC_WHITELIST_ENABLED}," -n \
+        \
+        -v "concat('\"alt-speed-time-enabled\": ', modules/scheduling/alt-speed-time-enabled, ',')" -n \
+        -v "concat('\"alt-speed-time-begin\": ', modules/scheduling/alt-speed-time-begin, ',')" -n \
+        -v "concat('\"alt-speed-time-end\": ', modules/scheduling/alt-speed-time-end, ',')" -n \
+        -v "concat('\"alt-speed-time-day\": ', modules/scheduling/alt-speed-time-day, ',')" -n \
+        -v "concat('\"idle-seeding-limit\": ', modules/scheduling/idle-seeding-limit, ',')" -n \
+        -v "concat('\"idle-seeding-limit-enabled\": ', modules/scheduling/idle-seeding-limit-enabled, ',')" -n \
+        -v "concat('\"ratio-limit\": ', modules/scheduling/ratio-limit, ',')" -n \
+        -v "concat('\"ratio-limit-enabled\": ', modules/scheduling/ratio-limit-enabled)" -n \
+        -o "}" -n \
+        ${OMV_CONFIG_FILE} | xmlstarlet unesc > ${OMV_TRANSMISSIONBT_CONFIG}
+}
+
+generate_cron()
+{
+    # Remove all previous cron files. Since we do not know if the frequency
+    # have been modified we have to scan all /etc/cron.xxx directories.
+    for crondir in /etc/cron.*ly/
+    do
+        [ -e "${crondir}/transmissionbt" ] && rm "${crondir}/transmissionbt"
+    done
+
+    # Check that everything required is enabled.
+    [ "$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/enable")" = "0" ] && return 0
+    [ "$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/modules/blocklists/blocklist-sync-enabled")" = "0" ] && return 0
+    [ "$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/modules/rpc/rpc-enabled")" = "0" ] && return 0
+
+    # Fetch the update interval.
+    local blocklist_sync_frequency=$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/modules/blocklists/blocklist-sync-frequency")
+    local cronfile="/etc/cron.${blocklist_sync_frequency}/transmissionbt"
+
+    # Make sure the cron directory exist.
+    [ ! -d "/etc/cron.${blocklist_sync_frequency}" ] && return 1
+
+    # Start creating the file.
+    touch "${cronfile}"
+    chmod 700 "${cronfile}"
+
+    xmlstarlet sel -t -m "${OMV_TRANSMISSIONBT_XPATH}/modules/rpc" \
+        -o "#!/bin/sh" -n \
+        -o "#" -n \
+        -o "# Cron script to update TransmissionBT blocklists." -n \
+        -o "# This file was generated automatically by openmediavault-transmissionbt." -n \
+        -n \
+        -o "set -e" -n \
+        -n \
+        -i "rpc-authentication-required[. = '1']" \
+            -o "TR_AUTH='" -v rpc-username -o ":" -v rpc-password -o "' " -b \
+        -o "transmission-remote http://localhost:" -v rpc-port -o "/transmission/rpc" \
+        -i "rpc-authentication-required[. = '1']" \
+            -o " --authenv" -b \
+        -o " --blocklist-update 1>/dev/null" -n \
+        ${OMV_CONFIG_FILE} | xmlstarlet unesc > "${cronfile}"
+}
+
+create_dirs()
+{
+    if [ "$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/enable")" = "0" ]; then
+        return 0
+    fi
+
+    for type in download watch incomplete
+    do
+        local enabled=$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/modules/filesandlocations/${type}-dir-enabled")
+
+        if [ "${enabled}" = "0" ]; then
+            continue
+        fi
+
+        local shared_folder_path=$(get_shared_folder_path ${type})
+        local directory=$(omv_config_get "${OMV_TRANSMISSIONBT_XPATH}/modules/filesandlocations/${type}-dir")
+
+        mkdir -p "${shared_folder_path}/${directory}"
+    done
+}
+
+generate_default
+generate_config
+generate_cron
+create_dirs
+
+exit 0

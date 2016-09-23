@@ -1,0 +1,81 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.filesandlocations",
+    "title": "BitTorrent - Files and locations",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/filesandlocations",
+        "iterable": false
+    },
+    "properties": {
+        "download-sharedfolderref": {
+            "type": "string",
+            "oneOf": [{
+                "type": "string",
+                "format": "uuidv4"
+            }, {
+                "type": "string",
+                "maxLength": 0
+            }]
+        },
+        "download-dir": {
+            "type": "string",
+            "default": ""
+        },
+        "incomplete-dir-enabled": {
+            "type": "boolean"
+        },
+        "incomplete-sharedfolderref": {
+            "type": "string",
+            "oneOf": [{
+                "type": "string",
+                "format": "uuidv4"
+            }, {
+                "type": "string",
+                "maxLength": 0
+            }]
+        },
+        "incomplete-dir": {
+            "type": "string",
+            "default": ""
+        },
+        "preallocation": {
+            "type": "integer",
+            "enum": [0, 1, 2],
+            "default": 1
+        },
+        "rename-partial-files": {
+            "type": "boolean",
+            "default": true
+        },
+        "start-added-torrents": {
+            "type": "boolean",
+            "default": true
+        },
+        "trash-original-torrent-files": {
+            "type": "boolean",
+            "default": false
+        },
+        "umask": {
+            "type": "integer",
+            "default": 18
+        },
+        "watch-sharedfolderref": {
+            "type": "string",
+            "oneOf": [{
+                "type": "string",
+                "format": "uuidv4"
+            }, {
+                "type": "string",
+                "maxLength": 0
+            }]
+        },
+        "watch-dir": {
+            "type": "string",
+            "default": ""
+        },
+        "watch-dir-enabled": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

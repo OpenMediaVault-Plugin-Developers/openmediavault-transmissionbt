@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Hyeonkyu Chu <hyeonkyu@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-transmissionbt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-18 06:27-0500\n"
+"PO-Revision-Date: 2014-11-22 13:40+0000\n"
+"Last-Translator: Hyeonkyu Chu <hyeonkyu@gmail.com>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "% completed ..."
+msgstr "% 완료됨 ..."
+
+msgid "100% completed ..."
+msgstr "100% 완료됨 ..."
+
+msgid "Add Torrent by URL"
+msgstr "URL을 통한 토런트 추가"
+
+msgid "Add torrent"
+msgstr "토런트 추가"
+
+msgid "Adding Torrent ..."
+msgstr "토런트 추가 중 ..."
+
+msgid "Authentication"
+msgstr "인증"
+
+msgid "Auto sync"
+msgstr "자동 동기화"
+
+msgid "Bandwidth"
+msgstr "대역폭"
+
+msgid "Begin"
+msgstr "시작"
+
+msgid "Bindings"
+msgstr "결합"
+
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+msgid "Blocklists"
+msgstr "차단 목록"
+
+msgid "Cache Size"
+msgstr "캐시 크기"
+
+msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgstr "디스크 읽기/쓰기의 횟수를 줄일, 캐시 크기(MiB)."
+
+msgid "Changing place in queue for selected item(s)"
+msgstr "선택된 항목(들)에 대해 대기열 위치 변경"
+
+msgid "Checking files"
+msgstr "파일 확인 중"
+
+msgid "DL-rate"
+msgstr "DL-속도"
+
+msgid "Daily"
+msgstr "일간"
+
+msgid "Date & Time"
+msgstr "날짜 & 시간"
+
+msgid "Date added"
+msgstr "추가된 날짜"
+
+msgid "Date done"
+msgstr "완료된 날짜"
+
+msgid "Days"
+msgstr "일"
+
+msgid "Debug"
+msgstr "디버그"
+
+msgid "Delete Local Data"
+msgstr "로컬 데이터 지우기"
+
+msgid "Delete torrent"
+msgstr "토런트 지우기"
+
+msgid "Delete torrents added from the watch directory."
+msgstr "감시 디렉터리를 통해 추가된 토런트를 지웁니다."
+
+msgid "Deleting torrent ..."
+msgstr "토런트 지우는 중 ..."
+
+msgid "Directory"
+msgstr "디렉터리"
+
+msgid ""
+"Directory to keep downloads. If incomplete is enabled, only complete "
+"downloads will be stored here."
+msgstr "내려받기를 유지하는 디렉터리. 미완료를 활성화한 경우, 완료된 내려받기만 여기에 저장됩니다. 미완료를 사용하지 않는 경우에는 모든 내려받기가 여기에 저장됩니다."
+
+msgid "Directory to keep files in until torrent is complete."
+msgstr "토런트가 완료되기 전까지 파일들이 유지되는 디렉터리."
+
+msgid "Distributed hash table (DHT)."
+msgstr "Distributed Hash Table (DHT)."
+
+msgid "Done"
+msgstr "완료"
+
+msgid "Download"
+msgstr "내려받기"
+
+msgid "Download Queue"
+msgstr "내려받기 대기열"
+
+msgid "Downloading"
+msgstr "다운로드 중"
+
+msgid "ETA"
+msgstr "완료 예정"
+
+msgid "Enable"
+msgstr "활성화"
+
+msgid "Enable &micro;TP."
+msgstr "&micro;TP 활성화."
+
+msgid "Enable DHT."
+msgstr "DHT 활성화."
+
+msgid "Enable LPD."
+msgstr "LPD 활성화."
+
+msgid "Enable PEX."
+msgstr "PEX 활성화."
+
+msgid "Enable Turtle Mode."
+msgstr "거북이 방식 활성화."
+
+msgid "Enable Watch directory."
+msgstr "감시 디렉터리 활성화."
+
+msgid "Enable download limit."
+msgstr "내려받기 제한 활성화."
+
+msgid "Enable incomplete directory."
+msgstr "미완료 디렉터리 활성화."
+
+msgid "Enable paused torrent scraping."
+msgstr "일시 정지된 토런트 수집을 활성화합니다."
+
+msgid "Enable port forwarding via NAT-PMP or UPnP."
+msgstr "NAT-PMP 또는 UPnP를 통한 포트 전달 활성화합니다."
+
+msgid "Enable upload limit."
+msgstr "올려주기 제한 활성화."
+
+msgid "Encryption"
+msgstr "암호화"
+
+msgid "End"
+msgstr "끝"
+
+msgid "Enter path to script."
+msgstr "스크립트 경로 입력."
+
+msgid "Error"
+msgstr "오류"
+
+msgid "Event"
+msgstr "이벤트"
+
+msgid "Fast"
+msgstr "빠름"
+
+msgid "Files"
+msgstr "파일"
+
+msgid "Files and locations"
+msgstr "파일 및 위치"
+
+msgid "Forced"
+msgstr "강제"
+
+msgid "Friday"
+msgstr "금요일"
+
+msgid "Full"
+msgstr "전체"
+
+msgid "General"
+msgstr "일반"
+
+msgid "General settings"
+msgstr "일반 설정"
+
+msgid "Global"
+msgstr "전역"
+
+msgid "Hourly"
+msgstr "시간"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
+msgstr "수신 대기할 IPv4 주소. 모든 호스트 IP들을 위해 0.0.0.0을 사용합니다."
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 address to listen on. Use :: for all host IPs."
+msgstr "수신 대기할 IPv6 주소. 모든 호스트 IP들을 위해 ::을 사용합니다."
+
+msgid "Idle"
+msgstr "유휴"
+
+msgid "Idle Minutes"
+msgstr "유휴 분"
+
+msgid "Incomplete"
+msgstr "미완료"
+
+msgid "Infinite"
+msgstr "무한대"
+
+msgid "Info"
+msgstr "정보"
+
+msgid "Invalid Uri."
+msgstr "잘못된 Uri."
+
+msgid "Lazy Bitfield"
+msgstr "Bitfield 지연"
+
+msgid "Limit Download"
+msgstr "내려받기 제한"
+
+msgid "Limit Upload"
+msgstr "올려주기 제한"
+
+msgid "Limit download speed. Value is kb/s."
+msgstr "내려받기 속도 제한. 값은 KiB/s."
+
+msgid "Limit upload speed. Value is kb/s."
+msgstr "올려주기 속도 제한. 값은 KiB/s."
+
+msgid "Limits"
+msgstr "제한"
+
+msgid "Local Peer Discovery (LPD)."
+msgstr "Local Peer Discovery (LPD)."
+
+msgid "Locations"
+msgstr "위치"
+
+msgid ""
+"Make sure the group 'debian-transmission' has read/write access to the "
+"shared folder."
+msgstr "이 공유 폴더에 대해 '<b>debian-transmission</b>' 그룹이 <b>읽기/쓰기</b> 권한을 가져야 합니다."
+
+msgid "May help get around some ISP filtering."
+msgstr "일부 ISP 차단을 우회하는 데 도움이 될 수 있습니다."
+
+msgid "Message Level"
+msgstr "알림 전달 수준"
+
+msgid "Micro Transport Protocol (&micro;TP)."
+msgstr "Micro Transport Protocol (&micro;TP)."
+
+msgid "Missing Status: "
+msgstr "누락된 상태:"
+
+msgid "Mode for preallocating files."
+msgstr "파일 사전 할당 방식."
+
+msgid "Monday"
+msgstr "월요일"
+
+msgid "Monthly"
+msgstr "월간"
+
+msgid "Move down"
+msgstr "아래로 이동"
+
+msgid "Move to bottom"
+msgstr "맨 아래로 이동"
+
+msgid "Move to top"
+msgstr "맨 위로 이동"
+
+msgid "Move up"
+msgstr "위로 이동"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "None"
+msgstr "없음"
+
+msgid "Not available"
+msgstr "사용 불가"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "끄기"
+
+msgid "Password"
+msgstr "암호"
+
+msgid "Pause"
+msgstr "멈춤"
+
+msgid "Peer"
+msgstr "피어"
+
+msgid "Peer Ports"
+msgstr "피어 포트"
+
+msgid "Peer exchange (PEX)"
+msgstr "피어 교환 (PEX)"
+
+msgid "Peer port"
+msgstr "피어 포트"
+
+msgid "Peers"
+msgstr "피어"
+
+msgid "Per torrent"
+msgstr "토런트 당"
+
+msgid "Port"
+msgstr "포트"
+
+msgid "Port forwarding"
+msgstr "포트 전달"
+
+msgid "Port to listen for incoming peer connections."
+msgstr "들어오는 피어 연결을 수신하는 포트입니다."
+
+msgid "Port to open and listen for RPC/Web requests on."
+msgstr "포트를 열고 RPC/Web 요청을 수신합니다."
+
+msgid "Postfix"
+msgstr "접미사"
+
+msgid "Postfix partially downloaded files with .part."
+msgstr "부분적으로 내려받은 파일들의 이름에 .part 접미사를 붙입니다."
+
+msgid "Preallocation"
+msgstr "사전 할당"
+
+msgid "Preferred"
+msgstr "선호"
+
+msgid "Queue"
+msgstr "대기열"
+
+msgid "Queue Stalled"
+msgstr "정체된 대기열"
+
+msgid "Queued to check files"
+msgstr "파일 확인을 위해 대기"
+
+msgid "Queued to download"
+msgstr "내려받기를 위해 대기"
+
+msgid "Queued to seed"
+msgstr "뿌리기를 위해 대기"
+
+msgid "Queuing"
+msgstr "대기열"
+
+msgid "RPC/WebUI Settings"
+msgstr "RPC/WebUI 설정"
+
+msgid "Random Port"
+msgstr "무작위 포트"
+
+msgid "Random Port on start."
+msgstr "무작위 포트로 시작"
+
+msgid "Random high"
+msgstr "무작위 최고"
+
+msgid "Random low"
+msgstr "무작위 최저"
+
+msgid "Ratio"
+msgstr "비율"
+
+msgid "Ratio Limit"
+msgstr "비율 제한"
+
+msgid "Require clients to authenticate themselves."
+msgstr "클라이언트에 인증이 필요합니다."
+
+msgid "Resume"
+msgstr "다시 시작"
+
+msgid "Run a script at torrent completion."
+msgstr "토런트 완료시 스크립트를 실행합니다."
+
+msgid "Saturday"
+msgstr "토요일"
+
+msgid "Scheduling"
+msgstr "일정 관리"
+
+msgid "Scrape paused torrents."
+msgstr "일시 정지된 토런트 수집"
+
+msgid "Script"
+msgstr "스크립트"
+
+msgid "Script to process after torrent finishes"
+msgstr "토런트 완료 후 스크립트 처리"
+
+msgid "Seed"
+msgstr "씨앗"
+
+msgid "Seed Queue"
+msgstr "씨앗 대기열"
+
+msgid "Seeding"
+msgstr "씨앗 유지"
+
+msgid "Seeding Limit"
+msgstr "씨앗 유지 제한"
+
+msgid "Set verbosity of transmission messages."
+msgstr "트랜스미션 알림 전달의 상세를 설정합니다."
+
+msgid "Sets transmission's file mode creation mask."
+msgstr "트랜스미션의 파일 상태 생성 마스크를 설정합니다."
+
+msgid "Settings"
+msgstr "설정"
+
+msgid "Shared folder"
+msgstr "공유 폴더"
+
+msgid "Size"
+msgstr "크기"
+
+msgid "Socket TOS"
+msgstr "소켓 TOS"
+
+msgid "Speed"
+msgstr "속도"
+
+msgid "Stalled Minutes"
+msgstr "정체 분"
+
+msgid "Start Torrents"
+msgstr "토런트 시작"
+
+msgid "Start download"
+msgstr "내려받기 시작"
+
+msgid "Start torrents as soon as they are added."
+msgstr "토런트가 추가되면 바로 시작"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Stop seeding after being idle for N minutes."
+msgstr "N 분의 유휴 상태 후에 씨앗 유지를 중지합니다."
+
+msgid "Sunday"
+msgstr "일요일"
+
+msgid "Sync frequency"
+msgstr "동기화 빈도"
+
+msgid "The URL of the blocklist."
+msgstr "차단 목록의 URL"
+
+msgid "The peer connection encryption mode."
+msgstr "피어 연결 암호화 방식"
+
+msgid "Thursday"
+msgstr "목요일"
+
+msgid "Time"
+msgstr "시간"
+
+msgid "Torrent is stopped"
+msgstr "토렌트 중지됨"
+
+msgid "Torrents"
+msgstr "토런트"
+
+msgid ""
+"Torrents that have not shared data for queue-stalled-minutes are treated as "
+"'stalled' and are not counted against the queue-download-size and seed-"
+"queue-size limits."
+msgstr "아래의 <b>정체 분</b>에 의해 <b>'정체'</b>로 취급하여 데이터를 공유하지 않고 <b>download-queue-size</b> 및 <b>seed-queue-size</b> 의 한계에 계산되지 않는, 토런트."
+
+msgid ""
+"Transmission will only download download-queue-size non-stalled torrents at "
+"once."
+msgstr "트랜스미션은 한 번에 <b>download-queue-size</b> 만큼의 <b>비-정체</b> 토런트만을 내려받습니다."
+
+msgid ""
+"Transmission will only seed seed-queue-size non-stalled torrents at once."
+msgstr "트랜스미션은 한 번에 <b>seed-queue-size</b> 만큼의 <b>비-정체</b> 토런트의 씨앗만을 뿌립니다."
+
+msgid "Transmission will only seed until ratio limit is reached."
+msgstr "트랜스미션은 비율 제한에 도달할 때까지만 씨앗을 뿌립니다."
+
+msgid "Trash original"
+msgstr "원본 지우기"
+
+msgid "Tuesday"
+msgstr "화요일"
+
+msgid "Turtle Mode"
+msgstr "거북이 방식"
+
+msgid "Turtle Mode download speed. Value is kb/s."
+msgstr "거북이 방식 내려받기 속도. 값은 KiB/s."
+
+msgid "Turtle Mode upload speed. Value is kb/s."
+msgstr "거북이 방식 올려주기 속도. 값은 KiB/s."
+
+msgid "UL-rate"
+msgstr "UL-속도"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Umask"
+msgstr "Umask"
+
+msgid "Unknown"
+msgstr "알 수 없는"
+
+msgid "Update blocklists automatically."
+msgstr "차단 목록 갱신 자동화"
+
+msgid "Upload"
+msgstr "올려주기"
+
+msgid "Upload slots"
+msgstr "올려주기 slots"
+
+msgid "Upload torrent"
+msgstr "토런트 올려주기"
+
+msgid "Uri"
+msgstr "Uri"
+
+msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+msgstr "RPC에 접속할 URL (http://localhost/&lt;Uri&gt;/(rpc|web)."
+
+msgid "Use blocklists."
+msgstr "차단 목록 사용"
+
+msgid "Used for client authentication."
+msgstr "클라이언트 인증에서 사용됩니다."
+
+msgid "Username"
+msgstr "사용자 이름"
+
+msgid "Watch"
+msgstr "감시"
+
+msgid "Watch a directory for torrent files and add them to transmission"
+msgstr "토런트 파일에 대한 감시 디렉터리, 추가된 토런트 파일을 트랜스미션에 추가합니다."
+
+msgid "Wednesday"
+msgstr "수요일"
+
+msgid "Weekly"
+msgstr "주간"
+
+msgid "When enabled, this will toggle the Turtle Mode."
+msgstr "활성화하면, 거북이 방식으로 전환됩니다."
+
+msgid "default"
+msgstr "기본"
+
+msgid "lowcost"
+msgstr "낮은 비용"
+
+msgid "lowdelay"
+msgstr "낮은 지연"
+
+msgid "reliability"
+msgstr "신뢰도"
+
+msgid "throughput"
+msgstr "처리량"

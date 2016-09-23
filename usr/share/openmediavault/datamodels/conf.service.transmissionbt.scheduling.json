@@ -1,0 +1,48 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.scheduling",
+    "title": "BitTorrent - Scheduling",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/scheduling",
+        "iterable": false
+    },
+    "properties": {
+        "alt-speed-time-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "alt-speed-time-begin": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 540
+        },
+        "alt-speed-time-end": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 1020
+        },
+        "alt-speed-time-day": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 127
+        },
+        "idle-seeding-limit": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 30
+        },
+        "idle-seeding-limit-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "ratio-limit": {
+            "type": "number",
+            "minimum": 0,
+            "default": 2.0
+        },
+        "ratio-limit-enabled": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

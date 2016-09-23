@@ -1,0 +1,608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Grawens <szabolcs.szanyi@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: openmediavault-transmissionbt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-18 06:27-0500\n"
+"PO-Revision-Date: 2014-11-14 19:51+0000\n"
+"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "% completed ..."
+msgstr "% elkészült ..."
+
+msgid "100% completed ..."
+msgstr "100% elkészült ..."
+
+msgid "Add Torrent by URL"
+msgstr "Torrent hozzáadása URL-ből"
+
+msgid "Add torrent"
+msgstr "Torrent hozzáadása"
+
+msgid "Adding Torrent ..."
+msgstr "Torrent hozzáadása ..."
+
+msgid "Authentication"
+msgstr "Hitelesítés"
+
+msgid "Auto sync"
+msgstr "Auto szinkr."
+
+msgid "Bandwidth"
+msgstr "Sávszélesség"
+
+msgid "Begin"
+msgstr "Kezdés"
+
+msgid "Bindings"
+msgstr "Kapcsolás"
+
+msgid "BitTorrent"
+msgstr "BitTorrent"
+
+msgid "Blocklists"
+msgstr "Tiltólisták"
+
+msgid "Cache Size"
+msgstr "Gyorsítótár méret"
+
+msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgstr "Gyorsítótár mérete (MB-ban), az irás/olvasás számának csökkentése érdekében."
+
+msgid "Changing place in queue for selected item(s)"
+msgstr ""
+
+msgid "Checking files"
+msgstr "Fájlok ellenőrzése"
+
+msgid "DL-rate"
+msgstr "Le-sebesség"
+
+msgid "Daily"
+msgstr "Naponta"
+
+msgid "Date & Time"
+msgstr "Dátum és idő"
+
+msgid "Date added"
+msgstr "Hozzáadás ideje"
+
+msgid "Date done"
+msgstr "Elkészülés ideje"
+
+msgid "Days"
+msgstr "Napok"
+
+msgid "Debug"
+msgstr "Hibakeresés"
+
+msgid "Delete Local Data"
+msgstr "Helyi adatok törlése"
+
+msgid "Delete torrent"
+msgstr "Torrent törlése"
+
+msgid "Delete torrents added from the watch directory."
+msgstr ""
+
+msgid "Deleting torrent ..."
+msgstr "Torrent törlése ..."
+
+msgid "Directory"
+msgstr "Könyvtár"
+
+msgid ""
+"Directory to keep downloads. If incomplete is enabled, only complete "
+"downloads will be stored here."
+msgstr ""
+
+msgid "Directory to keep files in until torrent is complete."
+msgstr ""
+
+msgid "Distributed hash table (DHT)."
+msgstr "Megosztott hash táblázat (DHT)."
+
+msgid "Done"
+msgstr "Elkészült"
+
+msgid "Download"
+msgstr "Letölt"
+
+msgid "Download Queue"
+msgstr "Letöltési sor"
+
+msgid "Downloading"
+msgstr "Letöltés"
+
+msgid "ETA"
+msgstr "ETA"
+
+msgid "Enable"
+msgstr "Engedélyez"
+
+msgid "Enable &micro;TP."
+msgstr "&micro;TP bekapcsolása"
+
+msgid "Enable DHT."
+msgstr "DHT bekapcsolása."
+
+msgid "Enable LPD."
+msgstr "LPD bekapcsolása."
+
+msgid "Enable PEX."
+msgstr "PEX bekapcsolása."
+
+msgid "Enable Turtle Mode."
+msgstr "Teknős mód bekapcsolása."
+
+msgid "Enable Watch directory."
+msgstr "Ideiglenes mappa engedélyezése."
+
+msgid "Enable download limit."
+msgstr "Letöltési limit bekapcsolása."
+
+msgid "Enable incomplete directory."
+msgstr "Befejezetlen mappa engedélyezése."
+
+msgid "Enable paused torrent scraping."
+msgstr ""
+
+msgid "Enable port forwarding via NAT-PMP or UPnP."
+msgstr "Port továbbítás engedélyezése NAT-PMP vagy UPnP-n keresztül."
+
+msgid "Enable upload limit."
+msgstr "Feltöltési korlát bekapcsolása."
+
+msgid "Encryption"
+msgstr "Titkosítás"
+
+msgid "End"
+msgstr "Befejezés"
+
+msgid "Enter path to script."
+msgstr "Add meg a szkript útvonalát."
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "Event"
+msgstr "Esemény"
+
+msgid "Fast"
+msgstr "Gyors"
+
+msgid "Files"
+msgstr "Fájlok"
+
+msgid "Files and locations"
+msgstr "Fájlok és elérési utak"
+
+msgid "Forced"
+msgstr "Erőltetett"
+
+msgid "Friday"
+msgstr "Péntek"
+
+msgid "Full"
+msgstr "Teljes"
+
+msgid "General"
+msgstr "Általános"
+
+msgid "General settings"
+msgstr "Általános beállítások"
+
+msgid "Global"
+msgstr "Globális"
+
+msgid "Hourly"
+msgstr "Óránként"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
+msgstr ""
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv6 address to listen on. Use :: for all host IPs."
+msgstr ""
+
+msgid "Idle"
+msgstr "Tétlen"
+
+msgid "Idle Minutes"
+msgstr "Tétlen percek"
+
+msgid "Incomplete"
+msgstr "Befejezetlen"
+
+msgid "Infinite"
+msgstr "Végtelen"
+
+msgid "Info"
+msgstr "Információ"
+
+msgid "Invalid Uri."
+msgstr "Érvénytelen Uri."
+
+msgid "Lazy Bitfield"
+msgstr ""
+
+msgid "Limit Download"
+msgstr "Letöltési korlát"
+
+msgid "Limit Upload"
+msgstr "Feltöltési korlát"
+
+msgid "Limit download speed. Value is kb/s."
+msgstr "Letöltési sebességkorlát. kb/s-ban."
+
+msgid "Limit upload speed. Value is kb/s."
+msgstr "Feltöltési sebességkorlát. kb/s-ban."
+
+msgid "Limits"
+msgstr "Korlátok"
+
+msgid "Local Peer Discovery (LPD)."
+msgstr "Helyi Peer felderítés (LPD)"
+
+msgid "Locations"
+msgstr "Elérési út"
+
+msgid ""
+"Make sure the group 'debian-transmission' has read/write access to the "
+"shared folder."
+msgstr ""
+
+msgid "May help get around some ISP filtering."
+msgstr ""
+
+msgid "Message Level"
+msgstr "Üzenet szint"
+
+msgid "Micro Transport Protocol (&micro;TP)."
+msgstr "Micro Transport protokoll (&micro;TP)."
+
+msgid "Missing Status: "
+msgstr ""
+
+msgid "Mode for preallocating files."
+msgstr ""
+
+msgid "Monday"
+msgstr "Hétfő"
+
+msgid "Monthly"
+msgstr "Havonta"
+
+msgid "Move down"
+msgstr "Mozgatás le"
+
+msgid "Move to bottom"
+msgstr "Mozgatás alulra"
+
+msgid "Move to top"
+msgstr "Mozgatás a tetejére"
+
+msgid "Move up"
+msgstr "Mozgatás fel"
+
+msgid "Name"
+msgstr "Név"
+
+msgid "None"
+msgstr "Nincs"
+
+msgid "Not available"
+msgstr "Nem elérhető"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "Ki"
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Pause"
+msgstr "Szünet"
+
+msgid "Peer"
+msgstr "Peer"
+
+msgid "Peer Ports"
+msgstr "Peer portok"
+
+msgid "Peer exchange (PEX)"
+msgstr "Peer csere (PEX)"
+
+msgid "Peer port"
+msgstr "Peer port"
+
+msgid "Peers"
+msgstr "Peer"
+
+msgid "Per torrent"
+msgstr ""
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Port forwarding"
+msgstr "Port továbbítás"
+
+msgid "Port to listen for incoming peer connections."
+msgstr ""
+
+msgid "Port to open and listen for RPC/Web requests on."
+msgstr ""
+
+msgid "Postfix"
+msgstr "Postfix"
+
+msgid "Postfix partially downloaded files with .part."
+msgstr ""
+
+msgid "Preallocation"
+msgstr ""
+
+msgid "Preferred"
+msgstr "Előnyben részesített"
+
+msgid "Queue"
+msgstr "Sor"
+
+msgid "Queue Stalled"
+msgstr ""
+
+msgid "Queued to check files"
+msgstr ""
+
+msgid "Queued to download"
+msgstr ""
+
+msgid "Queued to seed"
+msgstr ""
+
+msgid "Queuing"
+msgstr "Sorbanállás"
+
+msgid "RPC/WebUI Settings"
+msgstr "RPC/WebUI beállítások"
+
+msgid "Random Port"
+msgstr "Véletlen Port"
+
+msgid "Random Port on start."
+msgstr "Véletlenszerű port indításkor."
+
+msgid "Random high"
+msgstr ""
+
+msgid "Random low"
+msgstr ""
+
+msgid "Ratio"
+msgstr "Arány"
+
+msgid "Ratio Limit"
+msgstr "Arány korlát"
+
+msgid "Require clients to authenticate themselves."
+msgstr ""
+
+msgid "Resume"
+msgstr "Folytatás"
+
+msgid "Run a script at torrent completion."
+msgstr ""
+
+msgid "Saturday"
+msgstr "Szombat"
+
+msgid "Scheduling"
+msgstr "Ütemezés"
+
+msgid "Scrape paused torrents."
+msgstr ""
+
+msgid "Script"
+msgstr "Szkript"
+
+msgid "Script to process after torrent finishes"
+msgstr ""
+
+msgid "Seed"
+msgstr "Seed"
+
+msgid "Seed Queue"
+msgstr ""
+
+msgid "Seeding"
+msgstr "Seedelés"
+
+msgid "Seeding Limit"
+msgstr "Seedelési korlát"
+
+msgid "Set verbosity of transmission messages."
+msgstr ""
+
+msgid "Sets transmission's file mode creation mask."
+msgstr ""
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Shared folder"
+msgstr "Megosztott mappa"
+
+msgid "Size"
+msgstr "Méret"
+
+msgid "Socket TOS"
+msgstr ""
+
+msgid "Speed"
+msgstr "Sebesség"
+
+msgid "Stalled Minutes"
+msgstr ""
+
+msgid "Start Torrents"
+msgstr "Torrentek indítása"
+
+msgid "Start download"
+msgstr "Letöltés indítása"
+
+msgid "Start torrents as soon as they are added."
+msgstr ""
+
+msgid "Status"
+msgstr "Állapot"
+
+msgid "Stop seeding after being idle for N minutes."
+msgstr "Seedelés leállítása N perc tétlenség után."
+
+msgid "Sunday"
+msgstr "Vasárnap"
+
+msgid "Sync frequency"
+msgstr "Szinkronizálás gyakorisága"
+
+msgid "The URL of the blocklist."
+msgstr ""
+
+msgid "The peer connection encryption mode."
+msgstr "A Peer kapcsolat titkosítás módja."
+
+msgid "Thursday"
+msgstr "Csütörtök"
+
+msgid "Time"
+msgstr "Idő"
+
+msgid "Torrent is stopped"
+msgstr "Torrent megállítva"
+
+msgid "Torrents"
+msgstr "Torrentek"
+
+msgid ""
+"Torrents that have not shared data for queue-stalled-minutes are treated as "
+"'stalled' and are not counted against the queue-download-size and seed-"
+"queue-size limits."
+msgstr ""
+
+msgid ""
+"Transmission will only download download-queue-size non-stalled torrents at "
+"once."
+msgstr ""
+
+msgid ""
+"Transmission will only seed seed-queue-size non-stalled torrents at once."
+msgstr ""
+
+msgid "Transmission will only seed until ratio limit is reached."
+msgstr "Seedelés, amíg az arány el nem éri a beállított értéket."
+
+msgid "Trash original"
+msgstr ""
+
+msgid "Tuesday"
+msgstr "Kedd"
+
+msgid "Turtle Mode"
+msgstr "Teknős mód"
+
+msgid "Turtle Mode download speed. Value is kb/s."
+msgstr "Teknős mód letöltési sebesség. kb/s-ban."
+
+msgid "Turtle Mode upload speed. Value is kb/s."
+msgstr "Teknős mód feltöltési sebesség. kb/s-ban."
+
+msgid "UL-rate"
+msgstr "Fel-sebesség"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Umask"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Update blocklists automatically."
+msgstr "Tiltólista automatikus frissítése."
+
+msgid "Upload"
+msgstr "Feltöltés"
+
+msgid "Upload slots"
+msgstr "Feltöltési szálak"
+
+msgid "Upload torrent"
+msgstr "Torrent feltöltése"
+
+msgid "Uri"
+msgstr "Uri"
+
+msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+msgstr "Url cím hozzáférés RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
+
+msgid "Use blocklists."
+msgstr "Tiltólista használata."
+
+msgid "Used for client authentication."
+msgstr "Használd a kliens hitelesítésére."
+
+msgid "Username"
+msgstr "Felhasználónév"
+
+msgid "Watch"
+msgstr "Ideiglenes"
+
+msgid "Watch a directory for torrent files and add them to transmission"
+msgstr ""
+
+msgid "Wednesday"
+msgstr "Szerda"
+
+msgid "Weekly"
+msgstr "Hetente"
+
+msgid "When enabled, this will toggle the Turtle Mode."
+msgstr "Bekapcsolt állapotban felülbírálja a Teknős módot."
+
+msgid "default"
+msgstr "alapértelmezett"
+
+msgid "lowcost"
+msgstr ""
+
+msgid "lowdelay"
+msgstr ""
+
+msgid "reliability"
+msgstr "megbízhatóság"
+
+msgid "throughput"
+msgstr "teljesítmény"

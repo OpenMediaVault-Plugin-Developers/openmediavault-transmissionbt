@@ -1,0 +1,47 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt.bandwidth",
+    "title": "BitTorrent - Bandwidth",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt/modules/bandwidth",
+        "iterable": false
+    },
+    "properties": {
+        "alt-speed-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "alt-speed-up": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 50
+        },
+        "alt-speed-down": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 50
+        },
+        "speed-limit-down": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 100
+        },
+        "speed-limit-down-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "speed-limit-up": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 100
+        },
+        "speed-limit-up-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "upload-slots-per-torrent": {
+            "type": "integer",
+            "default": 14
+        }
+    }
+}

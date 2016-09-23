@@ -1,0 +1,374 @@
+{
+    "type": "config",
+    "id": "conf.service.transmissionbt",
+    "title": "BitTorrent",
+    "queryinfo": {
+        "xpath": "/config/services/transmissionbt",
+        "iterable": false
+    },
+    "properties": {
+        "enable": {
+            "type": "boolean",
+            "default": false
+        },
+        "cache-size-mb": {
+            "type": "integer",
+            "default": 4
+        },
+        "dht-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "encryption": {
+            "type": "integer",
+            "enum": [0, 1, 2],
+            "default": 1
+        },
+        "lazy-bitfield-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "lpd-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "message-level": {
+            "type": "integer",
+            "enum": [0, 1, 2, 3],
+            "default": 2
+        },
+        "pex-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "scrape-paused-torrents-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "script-torrent-done-enabled": {
+            "type": "boolean",
+            "default": false
+        },
+        "script-torrent-done-filename": {
+            "type": "string",
+            "default": ""
+        },
+        "utp-enabled": {
+            "type": "boolean",
+            "default": true
+        },
+        "modules": {
+            "type": "object",
+            "properties": {
+                "bandwidth": {
+                    "type": "object",
+                    "properties": {
+                        "alt-speed-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "alt-speed-up": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 50
+                        },
+                        "alt-speed-down": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 50
+                        },
+                        "speed-limit-down": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 100
+                        },
+                        "speed-limit-down-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "speed-limit-up": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 100
+                        },
+                        "speed-limit-up-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "upload-slots-per-torrent": {
+                            "type": "integer",
+                            "default": 14
+                        }
+                    }
+                },
+                "blocklists": {
+                    "type": "object",
+                    "properties": {
+                        "blocklist-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "blocklist-url": {
+                            "type": "string",
+                            "default": "http://www.example.com/blocklist"
+                        },
+                        "blocklist-sync-frequency": {
+                            "type": "string",
+                            "enum": [
+                                "hourly",
+                                "daily",
+                                "weekly",
+                                "monthly"
+                            ],
+                            "default": "daily"
+                        },
+                        "blocklist-sync-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        }
+                    }
+                },
+                "filesandlocations": {
+                    "type": "object",
+                    "properties": {
+                        "download-sharedfolderref": {
+                            "type": "string",
+                            "oneOf": [{
+                                "type": "string",
+                                "format": "uuidv4"
+                            }, {
+                                "type": "string",
+                                "maxLength": 0
+                            }]
+                        },
+                        "download-dir": {
+                            "type": "string",
+                            "default": ""
+                        },
+                        "incomplete-dir-enabled": {
+                            "type": "boolean"
+                        },
+                        "incomplete-sharedfolderref": {
+                            "type": "string",
+                            "oneOf": [{
+                                "type": "string",
+                                "format": "uuidv4"
+                            }, {
+                                "type": "string",
+                                "maxLength": 0
+                            }]
+                        },
+                        "incomplete-dir": {
+                            "type": "string",
+                            "default": ""
+                        },
+                        "preallocation": {
+                            "type": "integer",
+                            "enum": [0, 1, 2],
+                            "default": 1
+                        },
+                        "rename-partial-files": {
+                            "type": "boolean",
+                            "default": true
+                        },
+                        "start-added-torrents": {
+                            "type": "boolean",
+                            "default": true
+                        },
+                        "trash-original-torrent-files": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "umask": {
+                            "type": "integer",
+                            "default": 18
+                        },
+                        "watch-sharedfolderref": {
+                            "type": "string",
+                            "oneOf": [{
+                                "type": "string",
+                                "format": "uuidv4"
+                            }, {
+                                "type": "string",
+                                "maxLength": 0
+                            }]
+                        },
+                        "watch-dir": {
+                            "type": "string",
+                            "default": ""
+                        },
+                        "watch-dir-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        }
+                    }
+                },
+                "peer": {
+                    "type": "object",
+                    "properties": {
+                        "bind-address-ipv4": {
+                            "type": "string",
+                            "format": "ipv4",
+                            "default": "0.0.0.0"
+                        },
+                        "bind-address-ipv6": {
+                            "type": "string",
+                            "default": "::"
+                        },
+                        "peer-limit-global": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 240
+                        },
+                        "peer-limit-per-torrent": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 60
+                        },
+                        "peer-socket-tos": {
+                            "type": "string",
+                            "enum": [
+                                "default",
+                                "lowcost",
+                                "throughput",
+                                "lowdelay",
+                                "reliability"
+                            ],
+                            "default": "default"
+                        },
+                        "peer-port": {
+                            "type": "integer",
+                            "minimum": 1024,
+                            "maximum": 65535,
+                            "default": 51413
+                        },
+                        "peer-port-random-low": {
+                            "type": "integer",
+                            "minimum": 1024,
+                            "maximum": 65535,
+                            "default": 1024
+                        },
+                        "peer-port-random-high": {
+                            "type": "integer",
+                            "minimum": 1024,
+                            "maximum": 65535,
+                            "default": 65535
+                        },
+                        "peer-port-random-on-start": {
+                            "type": "boolean",
+                            "default": true
+                        },
+                        "port-forwarding-enabled": {
+                            "type": "boolean",
+                            "default": true
+                        }
+                    }
+                },
+                "queuing": {
+                    "type": "object",
+                    "properties": {
+                        "download-queue-enabled": {
+                            "type": "boolean",
+                            "default": true
+                        },
+                        "download-queue-size": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 5
+                        },
+                        "queue-stalled-enabled": {
+                            "type": "boolean",
+                            "default": true
+                        },
+                        "queue-stalled-minutes": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 30
+                        },
+                        "seed-queue-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "seed-queue-size": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 10
+                        }
+                    }
+                },
+                "rpc": {
+                    "type": "object",
+                    "properties": {
+                        "rpc-authentication-required": {
+                            "type": "boolean",
+                            "default": true
+                        },
+                        "rpc-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "rpc-password": {
+                            "type": "string",
+                            "format": "regex",
+                            "pattern": "\/^[^'\"\\\\]+$\/",
+                            "default": "openmediavault"
+                        },
+                        "rpc-port": {
+                            "type": "integer",
+                            "minimum": 1024,
+                            "maximum": 65535,
+                            "default": 9091
+                        },
+                        "rpc-username": {
+                            "type": "string",
+                            "format": "username",
+                            "default": "admin"
+                        }
+                    }
+                },
+                "scheduling": {
+                    "type": "object",
+                    "properties": {
+                        "alt-speed-time-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "alt-speed-time-begin": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 540
+                        },
+                        "alt-speed-time-end": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 1020
+                        },
+                        "alt-speed-time-day": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 127
+                        },
+                        "idle-seeding-limit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "default": 30
+                        },
+                        "idle-seeding-limit-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        },
+                        "ratio-limit": {
+                            "type": "number",
+                            "minimum": 0,
+                            "default": 2.0
+                        },
+                        "ratio-limit-enabled": {
+                            "type": "boolean",
+                            "default": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
