@@ -1,3 +1,9 @@
+openmediavault-transmissionbt (3.0.7) stable; urgency=medium
+
+  * OMV 3.0.40 compatibility.
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Tue, 27 Sep 2016 18:28:47 +0200
+
 openmediavault-transmissionbt (3.0.6) stable; urgency=medium
 
   * OMV 3.0.21 compatibility.
