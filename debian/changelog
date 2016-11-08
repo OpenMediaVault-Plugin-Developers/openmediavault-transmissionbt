@@ -1,3 +1,9 @@
+openmediavault-transmissionbt (3.0.8) stable; urgency=medium
+
+  * Fix a bug where the RPC provided a float instead on an integer.
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Tue, 08 Nov 2016 15:39:01 +0100
+
 openmediavault-transmissionbt (3.0.7) stable; urgency=medium
 
   * OMV 3.0.40 compatibility.
