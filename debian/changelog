@@ -1,3 +1,9 @@
+openmediavault-transmissionbt (3.0.9) stable; urgency=low
+
+  * Fix zeroconf bug by adding uuid
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Fri, 11 Nov 2016 09:21:35 -0600
+
 openmediavault-transmissionbt (3.0.8) stable; urgency=medium
 
   * Fix a bug where the RPC provided a float instead on an integer.

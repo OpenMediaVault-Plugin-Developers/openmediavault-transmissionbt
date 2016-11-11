@@ -139,6 +139,7 @@ case "$1" in
             zeroconf="${zeroconf}<id>transmissionbt</id>"
             zeroconf="${zeroconf}<enable>1</enable>"
             zeroconf="${zeroconf}<name>%h - BitTorrent</name>"
+            zeroconf="${zeroconf}<uuid>$(omv_uuid)</uuid>"
 
             omv_config_add_node_data "${ZEROCONF_XPATH}" "service" "${zeroconf}"
         fi
