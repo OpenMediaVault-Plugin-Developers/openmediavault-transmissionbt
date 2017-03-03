@@ -42,7 +42,7 @@ generate_default()
         -o "# defaults for transmission-daemon" -n \
         -o "# sourced by /etc/init.d/transmission-daemon" -n \
         -n \
-        -o " Change to 0 to disable daemon" -n \
+        -o "# Change to 0 to disable daemon" -n \
         -v "concat('ENABLE_DAEMON=', enable)" -n \
         -n \
         -o "# This directory stores some runtime information, like torrent files" -n \
@@ -51,7 +51,7 @@ generate_default()
         -o "CONFIG_DIR=\"/var/lib/transmission-daemon/info\"" -n \
         -n \
         -o "# Default options for daemon, see transmission-daemon(1) for more options" -n \
-        -o "OPTIONS=\"--config-dir \$CONFIG_DIR" -n \
+        -o "OPTIONS=\"--config-dir \$CONFIG_DIR\"" -n \
         ${OMV_CONFIG_FILE} | xmlstarlet unesc > ${OMV_TRANSMISSIONBT_DEFAULT}
 }
 
