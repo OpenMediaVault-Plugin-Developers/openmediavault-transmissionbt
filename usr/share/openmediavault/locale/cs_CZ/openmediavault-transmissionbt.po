@@ -4,46 +4,47 @@
 # 
 # Translators:
 # Matěj Mihal <mejatysek@gmail.com>, 2014
+# Pavel Borecki <pavel.borecki@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-18 06:27-0500\n"
-"PO-Revision-Date: 2014-11-14 19:51+0000\n"
-"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
-"Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/cs_CZ/)\n"
+"POT-Creation-Date: 2015-02-24 22:26-0600\n"
+"PO-Revision-Date: 2017-09-23 19:32+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech (Czech Republic) (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs_CZ\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 msgid "% completed ..."
-msgstr ""
+msgstr "% dokončeno…"
 
 msgid "100% completed ..."
-msgstr ""
+msgstr "100% dokončeno…"
 
 msgid "Add Torrent by URL"
-msgstr "Přidat torrent podle URL"
+msgstr "Přidat torrent z URL adresy"
 
 msgid "Add torrent"
-msgstr ""
+msgstr "Přidat torrent"
 
 msgid "Adding Torrent ..."
-msgstr "Přidávám torrent ..."
+msgstr "Přidávání torrentu…"
 
 msgid "Authentication"
 msgstr "Ověřování"
 
 msgid "Auto sync"
-msgstr "Automatická synchronizace"
+msgstr "Samočinná synchronizace"
 
 msgid "Bandwidth"
-msgstr "Šířka pásma"
+msgstr "Šířka přenosového pásma"
 
 msgid "Begin"
-msgstr "Začátek"
+msgstr "Začít"
 
 msgid "Bindings"
 msgstr "Vazby"
@@ -52,22 +53,22 @@ msgid "BitTorrent"
 msgstr "BitTorrent"
 
 msgid "Blocklists"
-msgstr "Blocklists"
+msgstr "Seznamy blokovaných"
 
-msgid "Cache Size"
-msgstr "Velikost cache"
+msgid "Cache size"
+msgstr "Velikost mezipaměti"
 
-msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
-msgstr "Velikost cache (v Mb) pro snížení počtu četní a zápisů na disk."
+msgid "Cache size (in MB) to reduce the number of disk reads and writes."
+msgstr "Velikost mezipaměti (v MiB), sloužící pro snížení množství čtení a zápisu na disky."
 
 msgid "Changing place in queue for selected item(s)"
-msgstr ""
+msgstr "Přemístění označených položek ve frontě"
 
 msgid "Checking files"
-msgstr "Kontroluji soubory"
+msgstr "Kontrola souborů…"
 
 msgid "DL-rate"
-msgstr "Rychlost-DL"
+msgstr "Rychlost stahování"
 
 msgid "Daily"
 msgstr "Denně"
@@ -85,10 +86,10 @@ msgid "Days"
 msgstr "Dny"
 
 msgid "Debug"
-msgstr "Debug"
+msgstr "Ladění"
 
 msgid "Delete Local Data"
-msgstr "Smazat lokální data"
+msgstr "Smazat místní data"
 
 msgid "Delete torrent"
 msgstr "Smazat torrent"
@@ -97,7 +98,7 @@ msgid "Delete torrents added from the watch directory."
 msgstr "Smazat torrenty přidané ze sledované složky."
 
 msgid "Deleting torrent ..."
-msgstr "Mažu torrent"
+msgstr "Mazání torrentu…"
 
 msgid "Directory"
 msgstr "Složka"
@@ -105,13 +106,13 @@ msgstr "Složka"
 msgid ""
 "Directory to keep downloads. If incomplete is enabled, only complete "
 "downloads will be stored here."
-msgstr "Složky pro stažené soubory. Při povolení rozpracovaných, v ní budou uložený jen dotažené soubory."
+msgstr "Složka pro stažené soubory. Pokud jsou umožněny i nekompletní, budou zde ukládány jen zcela stažené soubory."
 
 msgid "Directory to keep files in until torrent is complete."
-msgstr "Složky pro uložení rozpracovaných souborů."
+msgstr "Složky pro dočasné umístění nekompletních souborů."
 
 msgid "Distributed hash table (DHT)."
-msgstr "Distribuovaná hash tabulka. (DHT)."
+msgstr "Distribuovaná tabulka otisků. (DHT)."
 
 msgid "Done"
 msgstr "Dokončeno"
@@ -119,50 +120,50 @@ msgstr "Dokončeno"
 msgid "Download"
 msgstr "Stáhnout"
 
-msgid "Download Queue"
+msgid "Download queue"
 msgstr "Fronta stahování"
 
 msgid "Downloading"
-msgstr "Stahuji"
+msgstr "Stahování"
 
 msgid "ETA"
-msgstr "ETA"
+msgstr "Odhad času"
 
 msgid "Enable"
-msgstr "Povoleno"
+msgstr "Zapnuto"
 
 msgid "Enable &micro;TP."
-msgstr "Povolit &micro;TP."
+msgstr "Zapnout &micro;TP."
 
 msgid "Enable DHT."
-msgstr "Povolit DHT."
+msgstr "Zapnout DHT."
 
 msgid "Enable LPD."
-msgstr "Povolit LPD."
+msgstr "Zapnout LPD."
 
 msgid "Enable PEX."
-msgstr "Povolit PEX."
-
-msgid "Enable Turtle Mode."
-msgstr "Povolit spomalený mód."
+msgstr "Zapnout PEX."
 
 msgid "Enable Watch directory."
-msgstr "Povolit sledovanou složku"
+msgstr "Zapnout sledovanou složku."
 
 msgid "Enable download limit."
 msgstr "Omezit rychlost stahování."
 
 msgid "Enable incomplete directory."
-msgstr "Zapnout složku pro rozpracované soubory."
+msgstr "Používat zvlášť složku pro ještě ne zcela stažené soubory."
 
 msgid "Enable paused torrent scraping."
-msgstr ""
+msgstr "Zapnout odstraňování pozastavených torrentů."
 
 msgid "Enable port forwarding via NAT-PMP or UPnP."
-msgstr "Povolit port forwarding skrze NAT-PMP nebo UPnP."
+msgstr "Zapnout přesměrování portu prostřednictvím NAT-PMP nebo UPnP."
+
+msgid "Enable turtle mode."
+msgstr "Omezit rychlost."
 
 msgid "Enable upload limit."
-msgstr "Omezit rychlost nahrávání (uploadování)."
+msgstr "Omezit rychlost odesílání."
 
 msgid "Encryption"
 msgstr "Šifrování"
@@ -171,7 +172,7 @@ msgid "End"
 msgstr "Konec"
 
 msgid "Enter path to script."
-msgstr "Zadejte cestu ke scriptu."
+msgstr "Zadejte umístění skriptu."
 
 msgid "Error"
 msgstr "Chyba"
@@ -189,79 +190,79 @@ msgid "Files and locations"
 msgstr "Soubory a umístění"
 
 msgid "Forced"
-msgstr "Vynucený"
+msgstr "Vynucené"
 
 msgid "Friday"
-msgstr "Pátek"
+msgstr "pátek"
 
 msgid "Full"
-msgstr "Plno"
+msgstr "Plné"
 
 msgid "General"
-msgstr "Hlavní"
+msgstr "Obecné"
 
 msgid "General settings"
-msgstr "Hlavní nastavení"
+msgstr "Obecná nastavené"
 
 msgid "Global"
-msgstr "Globální"
+msgstr "Celkové"
 
 msgid "Hourly"
-msgstr "Hodinově"
+msgstr "Za hodinu"
 
 msgid "ID"
-msgstr "ID"
+msgstr "identifikátor"
 
 msgid "IPv4"
 msgstr "IPv4"
 
 msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
-msgstr "IPv4 adresa na které mám poslouchat. 0.0.0.0 pro všechny adresy hosta."
+msgstr "IPv4 adresa na které očekávat spojení. 0.0.0.0 pro všechny adresy stroje."
 
 msgid "IPv6"
 msgstr "IPv6"
 
 msgid "IPv6 address to listen on. Use :: for all host IPs."
-msgstr "IPv6 adresa na které mám poslouchat. Pro všechny adresy hosta \"::\"."
+msgstr "IPv6 adresa na které očekávat spojení. „::“ pro všechny adresy stroje."
 
 msgid "Idle"
-msgstr "Idle"
+msgstr "Nečinné"
 
-msgid "Idle Minutes"
-msgstr "Idle minuty"
+msgid "Idle minutes"
+msgstr "Minut nečinnosti"
 
 msgid "Incomplete"
-msgstr "Rozpracováné"
+msgstr "Nedokončené"
 
 msgid "Infinite"
 msgstr "Nekonečno"
 
 msgid "Info"
-msgstr "Info"
+msgstr "Informace"
 
-msgid "Invalid Uri."
-msgstr "Neplatná Uri."
+msgid "Invalid path."
+msgstr "Neplatný popis umístění."
 
 msgid "Lazy Bitfield"
 msgstr "Lazy Bitfield"
 
-msgid "Limit Download"
-msgstr "Limit stahování"
+msgid "Limit download"
+msgstr "Omezit stahování"
 
-msgid "Limit Upload"
-msgstr "Limit nahrávání (uploadu)"
+msgid "Limit download speed. Value is KB/s."
+msgstr "Omezit rychlost stahování. Hodnota je v KB/s."
 
-msgid "Limit download speed. Value is kb/s."
-msgstr "Limit rychlosti stahování. Hodnota v kb/s."
+msgid "Limit upload"
+msgstr "Omezit odesílání"
 
-msgid "Limit upload speed. Value is kb/s."
-msgstr "Limit rychlosti nahrání. Hodnota v kb/s."
+msgid "Limit upload speed. Value is KB/s."
+msgstr "Omezit rychlost odesílání. Hodnota je v KB/s."
 
 msgid "Limits"
-msgstr "Limity"
+msgstr "Omezení"
 
-msgid "Local Peer Discovery (LPD)."
-msgstr "Hledat Peeary v lokální síti (LPD)."
+msgid "Local peer discovery (LPD)."
+msgstr "Zjišťování místních sdílejících (LPD)."
 
 msgid "Locations"
 msgstr "Umístění"
@@ -269,49 +270,52 @@ msgstr "Umístění"
 msgid ""
 "Make sure the group 'debian-transmission' has read/write access to the "
 "shared folder."
-msgstr "Ujisti se, že skupina 'debian-transmission', má práva na četní/zápis do sdílené složky."
+msgstr "Ověřte, že systémová skupina debian-transmission, má práva na čtení/zápis do sdílené složky."
 
 msgid "May help get around some ISP filtering."
-msgstr "Může pomoci obejít filtrování ze strany ISP(poskytovatele připojení k internetu)."
+msgstr "Může pomoci obejít blokování ze strany poskytovatele připojení k Internetu (ISP)."
 
-msgid "Message Level"
-msgstr "Úroveň zpráv"
+msgid "Message level"
+msgstr "Podrobnost zpráv"
 
-msgid "Micro Transport Protocol (&micro;TP)."
-msgstr "Micro Transport Protocol (&micro;TP)."
+msgid "Micro transport protocol (&micro;TP)."
+msgstr "Micro transport protocol (&micro;TP)."
 
 msgid "Missing Status: "
-msgstr "Chybí Status:"
+msgstr "Chybí stav:"
 
 msgid "Mode for preallocating files."
-msgstr "Mód prealokování souborů."
+msgstr "Režim zabrání místa pro soubory dopředu."
 
 msgid "Monday"
-msgstr "Pondělí"
+msgstr "pondělí"
 
 msgid "Monthly"
 msgstr "Měsíčně"
 
+msgid "Move"
+msgstr "Přesunout"
+
 msgid "Move down"
-msgstr ""
+msgstr "Přesunout dolů"
 
 msgid "Move to bottom"
-msgstr ""
+msgstr "Přesunout na konec seznamu"
 
 msgid "Move to top"
-msgstr ""
+msgstr "Přesunout na začátek seznamu"
 
 msgid "Move up"
-msgstr ""
+msgstr "Přesunout nahoru"
 
 msgid "Name"
-msgstr "Jméno"
+msgstr "Název"
 
 msgid "None"
 msgstr "Žádný"
 
 msgid "Not available"
-msgstr "Není dostupný"
+msgstr "Nedostupné"
 
 msgid "OK"
 msgstr "OK"
@@ -323,22 +327,22 @@ msgid "Password"
 msgstr "Heslo"
 
 msgid "Pause"
-msgstr "Pauza"
+msgstr "Pozastavit"
 
 msgid "Peer"
-msgstr "Peer"
-
-msgid "Peer Ports"
-msgstr "Peer porty"
+msgstr "Sdílející"
 
 msgid "Peer exchange (PEX)"
-msgstr "Výměna mezi Peeary (PEX)"
+msgstr "Výměna mezi sdílejícími (PEX)"
 
 msgid "Peer port"
-msgstr "Peer port"
+msgstr "Port pro sdílející"
+
+msgid "Peer ports"
+msgstr "Porty protistrany"
 
 msgid "Peers"
-msgstr "Peearové"
+msgstr "Sdílející"
 
 msgid "Per torrent"
 msgstr "Pro jednotlivé torrenty"
@@ -347,67 +351,67 @@ msgid "Port"
 msgstr "Port"
 
 msgid "Port forwarding"
-msgstr "Port forwarding"
+msgstr "Přesměrování portů"
 
 msgid "Port to listen for incoming peer connections."
-msgstr "Port na kterém mám poslouchta pro příchozí spojení od peeru"
+msgstr "Port na kterém mám očekávat příchozí spojení od sdílejících."
 
-msgid "Port to open and listen for RPC/Web requests on."
-msgstr ""
+msgid "Port to open and listen for RPC/web requests on."
+msgstr "Port který otevřít a očekávat na něm RPC/web požadavky."
 
 msgid "Postfix"
 msgstr "Přípona"
 
 msgid "Postfix partially downloaded files with .part."
-msgstr "U rozpracovaných souborů použít koncovku .part."
+msgstr "U ještě ne zcela stažených souborů přidat příponu .part."
 
 msgid "Preallocation"
-msgstr "Předalokace"
+msgstr "Zabrat místo dopředu"
 
 msgid "Preferred"
-msgstr "Preferované"
+msgstr "Upřednostňované"
 
 msgid "Queue"
 msgstr "Fronta"
 
-msgid "Queue Stalled"
-msgstr ""
+msgid "Queue stalled"
+msgstr "Fronta je zabrzděná"
 
 msgid "Queued to check files"
-msgstr ""
+msgstr "Zařazeno do fronty pro kontrolu souborů"
 
 msgid "Queued to download"
-msgstr ""
+msgstr "Zařazeno do stahovaných souborů"
 
 msgid "Queued to seed"
-msgstr ""
+msgstr "Zařazeno do nabízených souborů"
 
 msgid "Queuing"
-msgstr ""
+msgstr "Zařazování do fronty"
 
-msgid "RPC/WebUI Settings"
-msgstr "Nastavení RPC/WEBUI"
-
-msgid "Random Port"
-msgstr "Náhodný port"
+msgid "RPC/web interface settings"
+msgstr "Nastavení RPC/webového rozhraní"
 
 msgid "Random Port on start."
-msgstr "Po startu vygenerovat náhodný port."
+msgstr "Po startu zvolit náhodný port."
 
 msgid "Random high"
-msgstr ""
+msgstr "Nahodilé vysoké"
 
 msgid "Random low"
-msgstr ""
+msgstr "Nahodilé nízké"
+
+msgid "Random port"
+msgstr "Nahodile zvolený port"
 
 msgid "Ratio"
-msgstr "Ratio"
+msgstr "Poměr"
 
-msgid "Ratio Limit"
-msgstr "Limit ratia"
+msgid "Ratio limit"
+msgstr "Hranice poměru"
 
 msgid "Require clients to authenticate themselves."
-msgstr "Vyžadovat aby se klienti ověřili."
+msgstr "Vyžadovat aby se klienti prokázali ověřením."
 
 msgid "Resume"
 msgstr "Obnovit"
@@ -416,37 +420,37 @@ msgid "Run a script at torrent completion."
 msgstr "Po stažení torrentu spustit script."
 
 msgid "Saturday"
-msgstr "Sobota"
+msgstr "sobota"
 
 msgid "Scheduling"
 msgstr "Plánování"
 
 msgid "Scrape paused torrents."
-msgstr ""
+msgstr "Zahodit pozastavené torrenty."
 
 msgid "Script"
-msgstr "Scrip"
+msgstr "Skript"
 
 msgid "Script to process after torrent finishes"
-msgstr ""
+msgstr "Skript, který spustit po dokončení stahování torrentu."
 
 msgid "Seed"
-msgstr "Seed"
+msgstr "Nabízet"
 
-msgid "Seed Queue"
-msgstr "Fronta seedování"
+msgid "Seed queue"
+msgstr "Fronta nabízení"
 
 msgid "Seeding"
-msgstr "Seeduji"
+msgstr "Nabízení"
 
-msgid "Seeding Limit"
-msgstr "Limit Seedování"
+msgid "Seeding limit"
+msgstr "Omezení nabízení"
 
 msgid "Set verbosity of transmission messages."
-msgstr "Nastavení ukecanosti zpráv od transmission."
+msgstr "Nastavení úrovně podrobnosti zpráv od Transmission."
 
 msgid "Sets transmission's file mode creation mask."
-msgstr ""
+msgstr "Nastaví masku pro soubory, vytvářené Transmission."
 
 msgid "Settings"
 msgstr "Nastavení"
@@ -458,43 +462,43 @@ msgid "Size"
 msgstr "Velikost"
 
 msgid "Socket TOS"
-msgstr ""
+msgstr "Podmínky používání služby soketu"
 
 msgid "Speed"
 msgstr "Rychlost"
 
-msgid "Stalled Minutes"
-msgstr ""
-
-msgid "Start Torrents"
-msgstr "Spustit torrenty"
+msgid "Stalled minutes"
+msgstr "Zabrzděné minuty"
 
 msgid "Start download"
 msgstr "Spustit stahování"
 
+msgid "Start torrents"
+msgstr "Spustit torrenty"
+
 msgid "Start torrents as soon as they are added."
-msgstr "Spustit torrent hned po přidání."
+msgstr "Spouštět torrenty hned po přidání do fronty."
 
 msgid "Status"
 msgstr "Stav"
 
 msgid "Stop seeding after being idle for N minutes."
-msgstr "Zastavit seedování po N minutách v idle (nic nedělání)."
+msgstr "Zastavit nabízení po N minutách, kdy nikdo nestahuje."
 
 msgid "Sunday"
-msgstr "Neděle"
+msgstr "neděle"
 
 msgid "Sync frequency"
-msgstr "Frekvence synchronizace"
+msgstr "Četnost synchronizace"
 
 msgid "The URL of the blocklist."
-msgstr "URL blocklistu."
+msgstr "URL adresa seznamu blokovaných."
 
 msgid "The peer connection encryption mode."
-msgstr "Mód šifrované komunikace mezi peery."
+msgstr "Režim šifrované komunikace mezi sdílejícími."
 
 msgid "Thursday"
-msgstr "Čtvrtek"
+msgstr "čtvrtek"
 
 msgid "Time"
 msgstr "Čas"
@@ -503,76 +507,74 @@ msgid "Torrent is stopped"
 msgstr "Torrent je zastaven"
 
 msgid "Torrents"
-msgstr ""
+msgstr "Torrenty"
 
 msgid ""
 "Torrents that have not shared data for queue-stalled-minutes are treated as "
 "'stalled' and are not counted against the queue-download-size and seed-"
 "queue-size limits."
-msgstr ""
+msgstr "Torrenty, která neobsahují sdílená data pro zabrzděné minuty fronty jsou považovány za zabrzděné a nejsou započítávány do omezení velikost fronty stahování a velikost fronty poskytovaných."
 
 msgid ""
 "Transmission will only download download-queue-size non-stalled torrents at "
 "once."
-msgstr ""
+msgstr "Transmission bude naráz stahovat pouze nezabrzděné torenty do velikosti fronty stahovaných."
 
 msgid ""
 "Transmission will only seed seed-queue-size non-stalled torrents at once."
-msgstr ""
+msgstr "Transmission bude naráz poskytovat pouze nezabrzděné torenty do velikosti fronty poskytovaných."
 
 msgid "Transmission will only seed until ratio limit is reached."
-msgstr "Transmission bude seedovat, dokud nebude dosaženo nastavené ratio."
+msgstr "Transmission bude nabízet do doby, než bude dosaženo nastaveného poměru."
 
 msgid "Trash original"
 msgstr "Smazat originál"
 
 msgid "Tuesday"
-msgstr "Úterý"
+msgstr "úterý"
 
-msgid "Turtle Mode"
-msgstr "Želví mód"
+msgid "Turtle mode"
+msgstr "Omezení rychlosti"
 
-msgid "Turtle Mode download speed. Value is kb/s."
-msgstr "Rychlost stahování v Želvím módu. Hodnota v kb/s. "
+msgid "Turtle mode download speed. Value is KB/s."
+msgstr "Rychlost stahování v omezeném režimu. Hodnota je v KB/s."
 
-msgid "Turtle Mode upload speed. Value is kb/s."
-msgstr "Rychlost nahrávání (upload) v Želvím módu. Hodnota v kb/s. "
+msgid "Turtle mode upload speed. Value is KB/s."
+msgstr "Rychlost odesílání v omezeném režimu. Hodnota je v KB/s."
 
 msgid "UL-rate"
-msgstr ""
+msgstr "Rychlost odesílání"
 
 msgid "URL"
-msgstr "URL"
+msgstr "URL adresa"
+
+msgid ""
+"URL to access RPC and web interface (http://localhost/&lt;URL&gt;/(rpc|web)."
+msgstr "URL adresa pro přístup k RPC a webovému rozhraní (http://localhost/&lt;URL&gt;/(rpc|web)."
 
 msgid "Umask"
-msgstr ""
+msgstr "Umask"
 
 msgid "Unknown"
-msgstr "Neznámý"
+msgstr "Neznámé"
 
 msgid "Update blocklists automatically."
-msgstr "Aktualizovat blocklisty automaticky."
+msgstr "Samočinně aktualizovat seznamy blokovaných."
 
 msgid "Upload"
 msgstr "Nahrát"
 
 msgid "Upload slots"
-msgstr "Sloty pro nahránání."
+msgstr "Sloty pro nahrávání."
 
 msgid "Upload torrent"
 msgstr "Nahrát torrent"
 
-msgid "Uri"
-msgstr "Uri"
-
-msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-msgstr ""
-
 msgid "Use blocklists."
-msgstr "Použít blocklisty."
+msgstr "Používat seznamy blokovaných."
 
 msgid "Used for client authentication."
-msgstr "Použité pro ověření klientů."
+msgstr "Slouží pro ověření klientů."
 
 msgid "Username"
 msgstr "Uživatelské jméno"
@@ -581,28 +583,28 @@ msgid "Watch"
 msgstr "Sledovaná složka"
 
 msgid "Watch a directory for torrent files and add them to transmission"
-msgstr "Sleduje torrentové soubory ve složce a přidá je do transmission"
+msgstr "Soubory s torrenty, které se ocitnou v této složce budou přidány do Transmission"
 
 msgid "Wednesday"
-msgstr "Středa"
+msgstr "středa"
 
 msgid "Weekly"
 msgstr "Týdně"
 
 msgid "When enabled, this will toggle the Turtle Mode."
-msgstr ""
+msgstr "Pokud je zapnuto, přepne omezení rychlosti."
 
 msgid "default"
 msgstr "výchozí"
 
 msgid "lowcost"
-msgstr "nízkonákladové"
+msgstr "levné připojení"
 
 msgid "lowdelay"
-msgstr "nízkoodezvové"
+msgstr "nízká prodleva"
 
 msgid "reliability"
-msgstr ""
+msgstr "spolehlivost"
 
 msgid "throughput"
 msgstr "propustnost"

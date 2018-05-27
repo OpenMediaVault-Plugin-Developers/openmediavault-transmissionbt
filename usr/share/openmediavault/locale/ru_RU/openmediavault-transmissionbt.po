@@ -4,20 +4,21 @@
 # 
 # Translators:
 # Alexander Savchenko, 2013
-# артур Мудрых <arturmon82@gmail.com>, 2013-2014
+# Alexander Savchenko, 2015
+# Артур Мудрых <arturmon82@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-18 06:27-0500\n"
-"PO-Revision-Date: 2014-11-14 19:51+0000\n"
-"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/ru/)\n"
+"POT-Creation-Date: 2015-02-24 22:26-0600\n"
+"PO-Revision-Date: 2017-09-19 20:49+0000\n"
+"Last-Translator: Alexander Savchenko\n"
+"Language-Team: Russian (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 msgid "% completed ..."
 msgstr "% завершено ..."
@@ -55,11 +56,11 @@ msgstr "BitTorrent"
 msgid "Blocklists"
 msgstr "Чёрные списки"
 
-msgid "Cache Size"
-msgstr "Размер кэша"
+msgid "Cache size"
+msgstr ""
 
-msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
-msgstr "Объем кэш-памяти (в Мб), чтобы уменьшить число операций чтения и записи."
+msgid "Cache size (in MB) to reduce the number of disk reads and writes."
+msgstr ""
 
 msgid "Changing place in queue for selected item(s)"
 msgstr "Изменение места в очереди для выбранного элемента(ов )"
@@ -120,8 +121,8 @@ msgstr "Выполнено"
 msgid "Download"
 msgstr "Скачать"
 
-msgid "Download Queue"
-msgstr "Очередь загрузки"
+msgid "Download queue"
+msgstr ""
 
 msgid "Downloading"
 msgstr "Загрузка"
@@ -144,9 +145,6 @@ msgstr "Включить LPD."
 msgid "Enable PEX."
 msgstr "Включить PEX."
 
-msgid "Enable Turtle Mode."
-msgstr "Включить режим ограничения скорости."
-
 msgid "Enable Watch directory."
 msgstr "Включить каталог для слежения."
 
@@ -161,6 +159,9 @@ msgstr "Включить очистку остановленных торрен�
 
 msgid "Enable port forwarding via NAT-PMP or UPnP."
 msgstr "Включить перенаправление портов через NAT-PMP или UPnP."
+
+msgid "Enable turtle mode."
+msgstr ""
 
 msgid "Enable upload limit."
 msgstr "Включить лимит отдачи."
@@ -228,8 +229,8 @@ msgstr "IPv6-адрес для прослушивания. Используйт�
 msgid "Idle"
 msgstr "Ожидание"
 
-msgid "Idle Minutes"
-msgstr "Минуты ожидания"
+msgid "Idle minutes"
+msgstr ""
 
 msgid "Incomplete"
 msgstr "Неполный"
@@ -240,29 +241,29 @@ msgstr "Бесконечный"
 msgid "Info"
 msgstr "Информация"
 
-msgid "Invalid Uri."
-msgstr "Неверный Uri."
+msgid "Invalid path."
+msgstr ""
 
 msgid "Lazy Bitfield"
 msgstr "Lazy Bitfield"
 
-msgid "Limit Download"
-msgstr "Ограничение загрузки"
+msgid "Limit download"
+msgstr ""
 
-msgid "Limit Upload"
-msgstr "Ограничение отдачи"
+msgid "Limit download speed. Value is KB/s."
+msgstr ""
 
-msgid "Limit download speed. Value is kb/s."
-msgstr "Ограничение скорости загрузки. Значение kb/s."
+msgid "Limit upload"
+msgstr ""
 
-msgid "Limit upload speed. Value is kb/s."
-msgstr "Ограничение скорости отдачи. Значение kb/s."
+msgid "Limit upload speed. Value is KB/s."
+msgstr ""
 
 msgid "Limits"
 msgstr "Ограничения"
 
-msgid "Local Peer Discovery (LPD)."
-msgstr "Локальное обнаружение пиров (LPD)."
+msgid "Local peer discovery (LPD)."
+msgstr ""
 
 msgid "Locations"
 msgstr "Местоположение"
@@ -275,11 +276,11 @@ msgstr "Убедитесь что группа 'debian-transmission' имеет 
 msgid "May help get around some ISP filtering."
 msgstr "Может помочь обойти фильтрацию некоторых провайдеров."
 
-msgid "Message Level"
+msgid "Message level"
 msgstr "Уровень сообщений"
 
-msgid "Micro Transport Protocol (&micro;TP)."
-msgstr "Micro Transport Protocol (&micro;TP)."
+msgid "Micro transport protocol (&micro;TP)."
+msgstr ""
 
 msgid "Missing Status: "
 msgstr "Отсутствует статус:"
@@ -292,6 +293,9 @@ msgstr "Понедельник"
 
 msgid "Monthly"
 msgstr "Ежемесячно"
+
+msgid "Move"
+msgstr ""
 
 msgid "Move down"
 msgstr "Переместить вниз"
@@ -329,14 +333,14 @@ msgstr "Пауза"
 msgid "Peer"
 msgstr "Пир"
 
-msgid "Peer Ports"
-msgstr "Порты пира"
-
 msgid "Peer exchange (PEX)"
 msgstr "Обмен списками пиров (PEX)"
 
 msgid "Peer port"
 msgstr "Порт пира"
+
+msgid "Peer ports"
+msgstr ""
 
 msgid "Peers"
 msgstr "Пиры"
@@ -353,8 +357,8 @@ msgstr "Перенаправление портов"
 msgid "Port to listen for incoming peer connections."
 msgstr "Порт для прослушивания входящих соединений пиров."
 
-msgid "Port to open and listen for RPC/Web requests on."
-msgstr "Порт для прослушивания RPC/Web запросов."
+msgid "Port to open and listen for RPC/web requests on."
+msgstr ""
 
 msgid "Postfix"
 msgstr "Постфикс"
@@ -371,8 +375,8 @@ msgstr "Предпочтительный"
 msgid "Queue"
 msgstr "Очередь"
 
-msgid "Queue Stalled"
-msgstr "Остановленная очередь"
+msgid "Queue stalled"
+msgstr ""
 
 msgid "Queued to check files"
 msgstr "В очереди для проверки файлов"
@@ -386,11 +390,8 @@ msgstr "Очередь раздачи"
 msgid "Queuing"
 msgstr "Очередь"
 
-msgid "RPC/WebUI Settings"
-msgstr "RPC/WebUI Настройки"
-
-msgid "Random Port"
-msgstr "Случайный порт"
+msgid "RPC/web interface settings"
+msgstr ""
 
 msgid "Random Port on start."
 msgstr "Случайный порт при запуске."
@@ -401,11 +402,14 @@ msgstr "Высшее случайное значение"
 msgid "Random low"
 msgstr "Нижнее случайное значение"
 
+msgid "Random port"
+msgstr "Случайный порт"
+
 msgid "Ratio"
 msgstr "Рейтинг"
 
-msgid "Ratio Limit"
-msgstr "Лимит рейтинга"
+msgid "Ratio limit"
+msgstr ""
 
 msgid "Require clients to authenticate themselves."
 msgstr "Требовать аутентификацию у клиентов."
@@ -434,14 +438,14 @@ msgstr "Скрипт, запускаемый после завершения т�
 msgid "Seed"
 msgstr "Сид"
 
-msgid "Seed Queue"
-msgstr "Очередь сидов"
+msgid "Seed queue"
+msgstr ""
 
 msgid "Seeding"
 msgstr "Сидирование"
 
-msgid "Seeding Limit"
-msgstr "Лимит сидирования"
+msgid "Seeding limit"
+msgstr ""
 
 msgid "Set verbosity of transmission messages."
 msgstr "Установите подробность сообщений."
@@ -464,14 +468,14 @@ msgstr "Сокет TOS"
 msgid "Speed"
 msgstr "Скорость"
 
-msgid "Stalled Minutes"
-msgstr "Замедление минут"
-
-msgid "Start Torrents"
-msgstr "Запустить торренты"
+msgid "Stalled minutes"
+msgstr ""
 
 msgid "Start download"
 msgstr "Начать загрузку"
+
+msgid "Start torrents"
+msgstr "Запустить торренты"
 
 msgid "Start torrents as soon as they are added."
 msgstr "Начать загрузку торрентов, как только они будут добавлены."
@@ -530,20 +534,24 @@ msgstr "Переместить файл .torrent в корзину"
 msgid "Tuesday"
 msgstr "Вторник"
 
-msgid "Turtle Mode"
-msgstr "Режим ограничения скорости"
+msgid "Turtle mode"
+msgstr ""
 
-msgid "Turtle Mode download speed. Value is kb/s."
-msgstr "Режим ограничения скорости загрузки. В КБ/с."
+msgid "Turtle mode download speed. Value is KB/s."
+msgstr ""
 
-msgid "Turtle Mode upload speed. Value is kb/s."
-msgstr "Режим ограничения скорости отдачи. В КБ/с."
+msgid "Turtle mode upload speed. Value is KB/s."
+msgstr ""
 
 msgid "UL-rate"
 msgstr "Скорость раздачи"
 
 msgid "URL"
 msgstr "URL"
+
+msgid ""
+"URL to access RPC and web interface (http://localhost/&lt;URL&gt;/(rpc|web)."
+msgstr ""
 
 msgid "Umask"
 msgstr "Umask"
@@ -562,12 +570,6 @@ msgstr "Слоты отдачи"
 
 msgid "Upload torrent"
 msgstr "Загрузить торрент"
-
-msgid "Uri"
-msgstr "Uri"
-
-msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-msgstr "Url доступа к RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
 
 msgid "Use blocklists."
 msgstr "Использовать черные списки."

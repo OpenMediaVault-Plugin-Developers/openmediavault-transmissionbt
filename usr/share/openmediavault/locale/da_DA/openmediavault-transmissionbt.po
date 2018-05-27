@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Stefan Thrane Overby <stoverby@gmail.com>, 2013-2014
+# Stefan Thrane Overby <stoverby@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-18 06:27-0500\n"
-"PO-Revision-Date: 2014-11-14 19:51+0000\n"
-"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/da/)\n"
+"POT-Creation-Date: 2015-02-24 22:26-0600\n"
+"PO-Revision-Date: 2017-09-23 19:18+0000\n"
+"Last-Translator: Stefan Thrane Overby <stoverby@gmail.com>\n"
+"Language-Team: Danish (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,7 +37,7 @@ msgid "Authentication"
 msgstr "Godkendelse"
 
 msgid "Auto sync"
-msgstr "Auto synk"
+msgstr "Auto sync"
 
 msgid "Bandwidth"
 msgstr "Båndbredde"
@@ -54,10 +54,10 @@ msgstr "BitTorrent"
 msgid "Blocklists"
 msgstr "Sortlister"
 
-msgid "Cache Size"
+msgid "Cache size"
 msgstr "Cachestørrelse"
 
-msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgid "Cache size (in MB) to reduce the number of disk reads and writes."
 msgstr "Cachestørrelse (i Mb) for at reducere læse og skrive antallet på disken."
 
 msgid "Changing place in queue for selected item(s)"
@@ -119,8 +119,8 @@ msgstr "Færdig"
 msgid "Download"
 msgstr "Download"
 
-msgid "Download Queue"
-msgstr "Download Kø"
+msgid "Download queue"
+msgstr "Download kø"
 
 msgid "Downloading"
 msgstr "Downloader"
@@ -143,9 +143,6 @@ msgstr "Aktiver LPD."
 msgid "Enable PEX."
 msgstr "Aktiver PEX."
 
-msgid "Enable Turtle Mode."
-msgstr "Aktiver Turtle Modus."
-
 msgid "Enable Watch directory."
 msgstr "Aktiver Overvågnings mappe."
 
@@ -160,6 +157,9 @@ msgstr "Aktiver pauset torrent høstning."
 
 msgid "Enable port forwarding via NAT-PMP or UPnP."
 msgstr "Aktiver port forwarding via NAT-PMP eller UPnP."
+
+msgid "Enable turtle mode."
+msgstr "Aktiver turtle tilstand."
 
 msgid "Enable upload limit."
 msgstr "Aktiver upload grænse."
@@ -227,8 +227,8 @@ msgstr "IPv6 adresse, der skal lyttes på. Brug :: til alle værts IPer."
 msgid "Idle"
 msgstr "Ledig"
 
-msgid "Idle Minutes"
-msgstr "Ledige Minutter"
+msgid "Idle minutes"
+msgstr "Ledige minutter"
 
 msgid "Incomplete"
 msgstr "Ufærdig"
@@ -239,29 +239,29 @@ msgstr "Uendelig"
 msgid "Info"
 msgstr "Oplysning"
 
-msgid "Invalid Uri."
-msgstr "Ugyldig Uri."
+msgid "Invalid path."
+msgstr "Ugyldig sti."
 
 msgid "Lazy Bitfield"
 msgstr "Doven Bitfelt"
 
-msgid "Limit Download"
-msgstr "Begræns Download"
+msgid "Limit download"
+msgstr "Begræns download"
 
-msgid "Limit Upload"
-msgstr "Begræns Upload"
+msgid "Limit download speed. Value is KB/s."
+msgstr "Begræns download hastighed. Værdi er i KB/s."
 
-msgid "Limit download speed. Value is kb/s."
-msgstr "Begræns download hastighed. Værdi er i kb/s."
+msgid "Limit upload"
+msgstr "Begræns upload"
 
-msgid "Limit upload speed. Value is kb/s."
-msgstr "Begræns upload hastighed. Værdi er i kb/s."
+msgid "Limit upload speed. Value is KB/s."
+msgstr "Begræns upload hastighed. Værdi er i KB/s."
 
 msgid "Limits"
 msgstr "Begrænsninger"
 
-msgid "Local Peer Discovery (LPD)."
-msgstr "Lokal Peer Opdagelse (LPD)"
+msgid "Local peer discovery (LPD)."
+msgstr "Lokal peer opdagelse (LPD)"
 
 msgid "Locations"
 msgstr "Placeringer"
@@ -274,23 +274,26 @@ msgstr "Vær sikker på, at gruppen 'debian-transmission' har læse/skrive adgan
 msgid "May help get around some ISP filtering."
 msgstr "Hjælper måske med, at komme omkring nogle ISP filtere."
 
-msgid "Message Level"
-msgstr "Besked Niveau"
+msgid "Message level"
+msgstr "Besked niveau"
 
-msgid "Micro Transport Protocol (&micro;TP)."
-msgstr "Micro Transport Protokol (&micro;TP)."
+msgid "Micro transport protocol (&micro;TP)."
+msgstr "Micro transport protokol (&micro;TP)."
 
 msgid "Missing Status: "
 msgstr "Manglende Status:"
 
 msgid "Mode for preallocating files."
-msgstr "Modus til efterallokering filer"
+msgstr "Tilstand for efterallokering af filer"
 
 msgid "Monday"
 msgstr "Mandag"
 
 msgid "Monthly"
 msgstr "Månedlig"
+
+msgid "Move"
+msgstr "Flyt"
 
 msgid "Move down"
 msgstr "Flyt ned"
@@ -328,14 +331,14 @@ msgstr "Pause"
 msgid "Peer"
 msgstr "Peer"
 
-msgid "Peer Ports"
-msgstr "Peer Porte"
-
 msgid "Peer exchange (PEX)"
 msgstr "Peer udveksling (PEX)"
 
 msgid "Peer port"
 msgstr "Peer port"
+
+msgid "Peer ports"
+msgstr "Peer porte"
 
 msgid "Peers"
 msgstr "Peers"
@@ -352,8 +355,8 @@ msgstr "Port forwarding"
 msgid "Port to listen for incoming peer connections."
 msgstr "Port der, skal lyttes på for indgående peer forbindelser."
 
-msgid "Port to open and listen for RPC/Web requests on."
-msgstr "Port der, skal åbnes og lyttes på for RPC / Web anmodninger."
+msgid "Port to open and listen for RPC/web requests on."
+msgstr "Port der, skal åbnes og lyttes på for RPC/web anmodninger."
 
 msgid "Postfix"
 msgstr "Postfix"
@@ -370,8 +373,8 @@ msgstr "Foretrukken"
 msgid "Queue"
 msgstr "Kø"
 
-msgid "Queue Stalled"
-msgstr "Kø Stoppet"
+msgid "Queue stalled"
+msgstr "Kø stoppet"
 
 msgid "Queued to check files"
 msgstr "I kø for at kontroller filer"
@@ -385,11 +388,8 @@ msgstr "I kø til seed"
 msgid "Queuing"
 msgstr "Sætter i kø"
 
-msgid "RPC/WebUI Settings"
-msgstr "RPC/WebUI Indstillinger"
-
-msgid "Random Port"
-msgstr "Tilfældig Port"
+msgid "RPC/web interface settings"
+msgstr "RPC/Web interface indstillinger"
 
 msgid "Random Port on start."
 msgstr "Tilfældig Port ved start."
@@ -400,10 +400,13 @@ msgstr "Vilkårlig høj"
 msgid "Random low"
 msgstr "Vilkårlig lav"
 
+msgid "Random port"
+msgstr "Tilfældig port"
+
 msgid "Ratio"
 msgstr "Forhold"
 
-msgid "Ratio Limit"
+msgid "Ratio limit"
 msgstr "Forholdsgrænse"
 
 msgid "Require clients to authenticate themselves."
@@ -422,7 +425,7 @@ msgid "Scheduling"
 msgstr "Planlægning"
 
 msgid "Scrape paused torrents."
-msgstr "Høst pauset torrents."
+msgstr "Udrens midlertidigt standset torrents."
 
 msgid "Script"
 msgstr "Script"
@@ -433,20 +436,20 @@ msgstr "Script, der udføres efter torrent er færdig"
 msgid "Seed"
 msgstr "Seed"
 
-msgid "Seed Queue"
-msgstr "Seed Kø"
+msgid "Seed queue"
+msgstr "Seed kø"
 
 msgid "Seeding"
 msgstr "Seeder"
 
-msgid "Seeding Limit"
-msgstr "Seed Grænse"
+msgid "Seeding limit"
+msgstr "Seed grænse"
 
 msgid "Set verbosity of transmission messages."
 msgstr "Angiv informationsniveauet af transmission beskeder."
 
 msgid "Sets transmission's file mode creation mask."
-msgstr "Angiver transmissions fil-modus oprettelses maske."
+msgstr "Angiver transmissions fil-tilstand oprettelses maske."
 
 msgid "Settings"
 msgstr "Indstillinger"
@@ -463,14 +466,14 @@ msgstr "Socket TOS"
 msgid "Speed"
 msgstr "Hastighed"
 
-msgid "Stalled Minutes"
-msgstr "Stoppet Minutter"
-
-msgid "Start Torrents"
-msgstr "Start Torrents"
+msgid "Stalled minutes"
+msgstr "Standset minutter"
 
 msgid "Start download"
 msgstr "Start download"
+
+msgid "Start torrents"
+msgstr "Start torrents"
 
 msgid "Start torrents as soon as they are added."
 msgstr "Start torrents så snart de er tilføjet."
@@ -485,13 +488,13 @@ msgid "Sunday"
 msgstr "Søndag"
 
 msgid "Sync frequency"
-msgstr "Synk frekvens"
+msgstr "Sync frekvens"
 
 msgid "The URL of the blocklist."
-msgstr "URLen af sortlisten."
+msgstr "URLen af sort listen."
 
 msgid "The peer connection encryption mode."
-msgstr "Peer forbindelses krypterings modus."
+msgstr "Peer forbindelses krypterings tilstand."
 
 msgid "Thursday"
 msgstr "Torsdag"
@@ -509,12 +512,12 @@ msgid ""
 "Torrents that have not shared data for queue-stalled-minutes are treated as "
 "'stalled' and are not counted against the queue-download-size and seed-"
 "queue-size limits."
-msgstr "Torrents, der ikke har delt data til kø-stoppet-minutter, bliver behandlet som 'stoppet' og ikke medregnet i kø-download-størrelse og seed-kø-størrelse grænserne."
+msgstr "Torrents, der ikke har delt data til kø-stoppet-minutter, bliver behandlet som 'standset' og ikke medregnet i kø-download-størrelse og seed-kø-størrelse grænserne."
 
 msgid ""
 "Transmission will only download download-queue-size non-stalled torrents at "
 "once."
-msgstr "Transmission vil kun downloade download-kø-størrelse ikke-stoppet torrents med det samme."
+msgstr "Transmission vil kun downloade download-kø-størrelse ikke-standset torrents med det samme."
 
 msgid ""
 "Transmission will only seed seed-queue-size non-stalled torrents at once."
@@ -529,20 +532,24 @@ msgstr "Slet original"
 msgid "Tuesday"
 msgstr "Tirsdag"
 
-msgid "Turtle Mode"
-msgstr "Turtle Modus"
+msgid "Turtle mode"
+msgstr "Turtle tilstand"
 
-msgid "Turtle Mode download speed. Value is kb/s."
-msgstr "Turtle Modus download hastighed. Værdi er i kb/s."
+msgid "Turtle mode download speed. Value is KB/s."
+msgstr "Turtle tilstand download hastighed. Værdi er i KB/s."
 
-msgid "Turtle Mode upload speed. Value is kb/s."
-msgstr "Turtle Mode upload hastighed. Værdi er i kb/s."
+msgid "Turtle mode upload speed. Value is KB/s."
+msgstr "Turtle tilstand upload hastighed. Værdi er i KB/s."
 
 msgid "UL-rate"
 msgstr "UL-rate"
 
 msgid "URL"
 msgstr "URL"
+
+msgid ""
+"URL to access RPC and web interface (http://localhost/&lt;URL&gt;/(rpc|web)."
+msgstr "URL til at tilgå RPC og web interface (http://localhost/<URI>/(rpc|web)."
 
 msgid "Umask"
 msgstr "Ikke maskeret"
@@ -551,7 +558,7 @@ msgid "Unknown"
 msgstr "Ukendt"
 
 msgid "Update blocklists automatically."
-msgstr "Opdater sortliste automatisk."
+msgstr "Opdater sort liste automatisk."
 
 msgid "Upload"
 msgstr "Upload"
@@ -562,14 +569,8 @@ msgstr "Upload slots"
 msgid "Upload torrent"
 msgstr "Upload torrent"
 
-msgid "Uri"
-msgstr "Uri"
-
-msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-msgstr "Url at tilgå RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-
 msgid "Use blocklists."
-msgstr "Brug sortlister."
+msgstr "Brug sort lister."
 
 msgid "Used for client authentication."
 msgstr "Brugt til klient godkendelse."
@@ -590,7 +591,7 @@ msgid "Weekly"
 msgstr "Ugenligt"
 
 msgid "When enabled, this will toggle the Turtle Mode."
-msgstr "Når aktiveret, vil dettte skifte Turtle Modus."
+msgstr "Når aktiveret, vil dettte skifte Turtle Tilstand."
 
 msgid "default"
 msgstr "standard"

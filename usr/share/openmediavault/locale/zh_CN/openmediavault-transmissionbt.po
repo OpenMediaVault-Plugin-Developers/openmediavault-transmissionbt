@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# songming <by@songming.me>, 2013-2014
+# songming <by@songming.me>, 2013-2015
 # Wei Ding <dyw.net@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-18 06:27-0500\n"
-"PO-Revision-Date: 2014-11-14 19:51+0000\n"
-"Last-Translator: Aaron Murray <aaron27@ryecoinc.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/zh_CN/)\n"
+"POT-Creation-Date: 2015-02-24 22:26-0600\n"
+"PO-Revision-Date: 2017-09-19 22:52+0000\n"
+"Last-Translator: songming <by@songming.me>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,16 +20,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "% completed ..."
-msgstr ""
+msgstr "%完成 ..."
 
 msgid "100% completed ..."
-msgstr ""
+msgstr "100%完成 ..."
 
 msgid "Add Torrent by URL"
 msgstr "添加种子URL地址"
 
 msgid "Add torrent"
-msgstr ""
+msgstr "添加种子"
 
 msgid "Adding Torrent ..."
 msgstr "添加种子 ..."
@@ -55,14 +55,14 @@ msgstr "BitTorrent下载"
 msgid "Blocklists"
 msgstr "黑名单"
 
-msgid "Cache Size"
+msgid "Cache size"
 msgstr "缓存大小"
 
-msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
-msgstr "缓存(单位Mb)可以减少磁盘读写次数。"
+msgid "Cache size (in MB) to reduce the number of disk reads and writes."
+msgstr "缓存(MB)可以减少磁盘单位时间内的读写次数。"
 
 msgid "Changing place in queue for selected item(s)"
-msgstr ""
+msgstr "变更选中列队项(可复选)"
 
 msgid "Checking files"
 msgstr "检查文件"
@@ -120,7 +120,7 @@ msgstr "完成"
 msgid "Download"
 msgstr "下载"
 
-msgid "Download Queue"
+msgid "Download queue"
 msgstr "下载列队"
 
 msgid "Downloading"
@@ -144,9 +144,6 @@ msgstr "启用LPD。"
 msgid "Enable PEX."
 msgstr "启用PEX。"
 
-msgid "Enable Turtle Mode."
-msgstr "启用限速模式。"
-
 msgid "Enable Watch directory."
 msgstr "启用监视目录。"
 
@@ -161,6 +158,9 @@ msgstr "启用被暂停的种子搜索。"
 
 msgid "Enable port forwarding via NAT-PMP or UPnP."
 msgstr "启用NAT-PMP或UPnP端口转发。"
+
+msgid "Enable turtle mode."
+msgstr "启用限速模式。"
 
 msgid "Enable upload limit."
 msgstr "启用上传限制。"
@@ -228,7 +228,7 @@ msgstr "IPv6监听地址，用 :: 表示所有主机IP。"
 msgid "Idle"
 msgstr "闲置"
 
-msgid "Idle Minutes"
+msgid "Idle minutes"
 msgstr "限制时间"
 
 msgid "Incomplete"
@@ -240,28 +240,28 @@ msgstr "无限"
 msgid "Info"
 msgstr "信息"
 
-msgid "Invalid Uri."
-msgstr "无效Uri。"
+msgid "Invalid path."
+msgstr "无效路径。"
 
 msgid "Lazy Bitfield"
 msgstr "Lazy Bitfield"
 
-msgid "Limit Download"
-msgstr "限制下载"
+msgid "Limit download"
+msgstr "下载限制"
 
-msgid "Limit Upload"
-msgstr "限制上传"
+msgid "Limit download speed. Value is KB/s."
+msgstr "限制下载速度，单位KB/s。"
 
-msgid "Limit download speed. Value is kb/s."
-msgstr "限制下载速度值kb/s。"
+msgid "Limit upload"
+msgstr "上传限制"
 
-msgid "Limit upload speed. Value is kb/s."
-msgstr "限制上传速度值kb/s。"
+msgid "Limit upload speed. Value is KB/s."
+msgstr "限制上传速度，单位KB/s。"
 
 msgid "Limits"
 msgstr "限制"
 
-msgid "Local Peer Discovery (LPD)."
+msgid "Local peer discovery (LPD)."
 msgstr "本地节点发现(LPD)。"
 
 msgid "Locations"
@@ -275,11 +275,11 @@ msgstr "确认'debian-transmission'组拥有共享文件夹的读/写权限。"
 msgid "May help get around some ISP filtering."
 msgstr "可能对突破ISP封杀BT有帮助。"
 
-msgid "Message Level"
+msgid "Message level"
 msgstr "消息级别"
 
-msgid "Micro Transport Protocol (&micro;TP)."
-msgstr "微传输协议(&micro;TP)。"
+msgid "Micro transport protocol (&micro;TP)."
+msgstr " 微传输协议(&micro;TP)。"
 
 msgid "Missing Status: "
 msgstr "缺失状态："
@@ -293,17 +293,20 @@ msgstr "星期一"
 msgid "Monthly"
 msgstr "每月"
 
+msgid "Move"
+msgstr "移动"
+
 msgid "Move down"
-msgstr ""
+msgstr "向下移动"
 
 msgid "Move to bottom"
-msgstr ""
+msgstr "移动到底部"
 
 msgid "Move to top"
-msgstr ""
+msgstr "移动到顶部"
 
 msgid "Move up"
-msgstr ""
+msgstr "向上移动"
 
 msgid "Name"
 msgstr "名称"
@@ -329,13 +332,13 @@ msgstr "暂停"
 msgid "Peer"
 msgstr "节点"
 
-msgid "Peer Ports"
-msgstr "节点端口"
-
 msgid "Peer exchange (PEX)"
 msgstr "节点交换 (PEX)"
 
 msgid "Peer port"
+msgstr "节点端口"
+
+msgid "Peer ports"
 msgstr "节点端口"
 
 msgid "Peers"
@@ -353,8 +356,8 @@ msgstr "端口转发"
 msgid "Port to listen for incoming peer connections."
 msgstr "传入节点连接监听端口。"
 
-msgid "Port to open and listen for RPC/Web requests on."
-msgstr "RPC/Web请求打开和监听的端口。"
+msgid "Port to open and listen for RPC/web requests on."
+msgstr "RPC/web监听端口。"
 
 msgid "Postfix"
 msgstr "后缀"
@@ -371,8 +374,8 @@ msgstr "优先的"
 msgid "Queue"
 msgstr "列队"
 
-msgid "Queue Stalled"
-msgstr "列队停滞"
+msgid "Queue stalled"
+msgstr "列队延时"
 
 msgid "Queued to check files"
 msgstr "检查文件列队"
@@ -386,11 +389,8 @@ msgstr "列队种子"
 msgid "Queuing"
 msgstr "列队"
 
-msgid "RPC/WebUI Settings"
-msgstr "RPC/WebUI设置"
-
-msgid "Random Port"
-msgstr "随机端口"
+msgid "RPC/web interface settings"
+msgstr "RPC/web界面设置"
 
 msgid "Random Port on start."
 msgstr "启动时生成随机端口。"
@@ -401,10 +401,13 @@ msgstr "随机最大值"
 msgid "Random low"
 msgstr "随机最小值"
 
+msgid "Random port"
+msgstr "随机端口"
+
 msgid "Ratio"
 msgstr "比率"
 
-msgid "Ratio Limit"
+msgid "Ratio limit"
 msgstr "限制比率"
 
 msgid "Require clients to authenticate themselves."
@@ -429,18 +432,18 @@ msgid "Script"
 msgstr "脚本"
 
 msgid "Script to process after torrent finishes"
-msgstr ""
+msgstr "种子完成后运行脚本"
 
 msgid "Seed"
 msgstr "种子"
 
-msgid "Seed Queue"
+msgid "Seed queue"
 msgstr "种子列队"
 
 msgid "Seeding"
 msgstr "做种"
 
-msgid "Seeding Limit"
+msgid "Seeding limit"
 msgstr "做种限制"
 
 msgid "Set verbosity of transmission messages."
@@ -464,14 +467,14 @@ msgstr ""
 msgid "Speed"
 msgstr "速度"
 
-msgid "Stalled Minutes"
+msgid "Stalled minutes"
 msgstr "停滞分钟"
-
-msgid "Start Torrents"
-msgstr "启动种子"
 
 msgid "Start download"
 msgstr "开始下载"
+
+msgid "Start torrents"
+msgstr "启动种子"
 
 msgid "Start torrents as soon as they are added."
 msgstr "添加后立即启动种子。"
@@ -504,7 +507,7 @@ msgid "Torrent is stopped"
 msgstr "种子已停止"
 
 msgid "Torrents"
-msgstr ""
+msgstr "种子"
 
 msgid ""
 "Torrents that have not shared data for queue-stalled-minutes are treated as "
@@ -530,20 +533,24 @@ msgstr "回收站文件"
 msgid "Tuesday"
 msgstr "星期二"
 
-msgid "Turtle Mode"
+msgid "Turtle mode"
 msgstr "限速模式"
 
-msgid "Turtle Mode download speed. Value is kb/s."
-msgstr "限速模式下载速度，单位是 kb/s 。"
+msgid "Turtle mode download speed. Value is KB/s."
+msgstr "限速模式下载速度，单位是KB/s。"
 
-msgid "Turtle Mode upload speed. Value is kb/s."
-msgstr "限速模式上传速度，单位是 kb/s 。"
+msgid "Turtle mode upload speed. Value is KB/s."
+msgstr "限速模式上传速度，单位是KB/s。"
 
 msgid "UL-rate"
 msgstr "上传速率"
 
 msgid "URL"
 msgstr "URL"
+
+msgid ""
+"URL to access RPC and web interface (http://localhost/&lt;URL&gt;/(rpc|web)."
+msgstr "RPC访问和web管理地址(http://localhost/&lt;URL&gt;/(rpc|web)。"
 
 msgid "Umask"
 msgstr ""
@@ -562,12 +569,6 @@ msgstr "上传通道数"
 
 msgid "Upload torrent"
 msgstr "上传种子"
-
-msgid "Uri"
-msgstr "Uri"
-
-msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-msgstr "URL访问地址 (http://localhost/&lt;URI&gt;/(rpc|web)。"
 
 msgid "Use blocklists."
 msgstr "启用黑名单。"

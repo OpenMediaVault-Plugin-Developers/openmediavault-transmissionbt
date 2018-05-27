@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2014
+# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-18 06:27-0500\n"
-"PO-Revision-Date: 2014-12-07 08:32+0000\n"
+"POT-Creation-Date: 2015-02-24 22:26-0600\n"
+"PO-Revision-Date: 2017-09-23 20:34+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>\n"
-"Language-Team: Galician (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/gl/)\n"
+"Language-Team: Galician (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,10 +54,10 @@ msgstr "BitTorrent"
 msgid "Blocklists"
 msgstr "Listas de bloqueo"
 
-msgid "Cache Size"
+msgid "Cache size"
 msgstr "Tamaño da caché"
 
-msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
+msgid "Cache size (in MB) to reduce the number of disk reads and writes."
 msgstr "Tamaño da caché (en MB) para reducir o número de lecturas e escrituras no disco."
 
 msgid "Changing place in queue for selected item(s)"
@@ -119,7 +119,7 @@ msgstr "Feito"
 msgid "Download"
 msgstr "Descarga"
 
-msgid "Download Queue"
+msgid "Download queue"
 msgstr "Cola da descarga"
 
 msgid "Downloading"
@@ -143,9 +143,6 @@ msgstr "Activar LPD."
 msgid "Enable PEX."
 msgstr "Activar PEX."
 
-msgid "Enable Turtle Mode."
-msgstr "Activar o modo tartaruga."
-
 msgid "Enable Watch directory."
 msgstr "Activar o directorio a supervisar"
 
@@ -160,6 +157,9 @@ msgstr "Activar o raspado nos torrent en pausa."
 
 msgid "Enable port forwarding via NAT-PMP or UPnP."
 msgstr "Activar o reenvío de portos a traves de UPnP ou NAT-PMP"
+
+msgid "Enable turtle mode."
+msgstr "Activar o modo tartaruga."
 
 msgid "Enable upload limit."
 msgstr "Activar o límite de envío."
@@ -227,7 +227,7 @@ msgstr "Enderezo IPv6 de escoita. Usar :: para todo o intervalo de IP."
 msgid "Idle"
 msgstr "Inactivo"
 
-msgid "Idle Minutes"
+msgid "Idle minutes"
 msgstr "Minutos de inactividade"
 
 msgid "Incomplete"
@@ -239,28 +239,28 @@ msgstr "Infinito"
 msgid "Info"
 msgstr "Información"
 
-msgid "Invalid Uri."
-msgstr "URI incorrecto"
+msgid "Invalid path."
+msgstr "Ruta incorrecta."
 
 msgid "Lazy Bitfield"
 msgstr "Bits preguiceiros"
 
-msgid "Limit Download"
+msgid "Limit download"
 msgstr "Límite da descarga"
 
-msgid "Limit Upload"
+msgid "Limit download speed. Value is KB/s."
+msgstr "Limita a velocidade de descarga. O valor é en KB/s."
+
+msgid "Limit upload"
 msgstr "Límite do envío"
 
-msgid "Limit download speed. Value is kb/s."
-msgstr "Limita a velocidade de descarga. O valor é en kb/s."
-
-msgid "Limit upload speed. Value is kb/s."
-msgstr "Limita a velocidade de envío. O valor é en kb/s."
+msgid "Limit upload speed. Value is KB/s."
+msgstr "Limita a velocidade de envío. O valor é en KB/s."
 
 msgid "Limits"
 msgstr "Límites"
 
-msgid "Local Peer Discovery (LPD)."
+msgid "Local peer discovery (LPD)."
 msgstr "(LPD) Descuberta de pares locais"
 
 msgid "Locations"
@@ -274,10 +274,10 @@ msgstr "Asegurese de que o grupo «debian-transmission» ten acceso de escritura
 msgid "May help get around some ISP filtering."
 msgstr "Pode axudar a obter algún tipo de filtrado de ISP."
 
-msgid "Message Level"
+msgid "Message level"
 msgstr "Nivel de mensaxes"
 
-msgid "Micro Transport Protocol (&micro;TP)."
+msgid "Micro transport protocol (&micro;TP)."
 msgstr "Protocolo de Transporte Micro (&micro;TP)."
 
 msgid "Missing Status: "
@@ -291,6 +291,9 @@ msgstr "luns"
 
 msgid "Monthly"
 msgstr "Mensualmente"
+
+msgid "Move"
+msgstr "Mover"
 
 msgid "Move down"
 msgstr "Mover cara abaixo"
@@ -328,14 +331,14 @@ msgstr "Pausa"
 msgid "Peer"
 msgstr "Par"
 
-msgid "Peer Ports"
-msgstr "Portos de pares"
-
 msgid "Peer exchange (PEX)"
 msgstr "Intercambio de pares (PEX)"
 
 msgid "Peer port"
 msgstr "Porto de par"
+
+msgid "Peer ports"
+msgstr "Portos de pares"
 
 msgid "Peers"
 msgstr "Pares"
@@ -352,8 +355,8 @@ msgstr "Reenvío de portos"
 msgid "Port to listen for incoming peer connections."
 msgstr "Porto de escoita para as conexións de pares entrantes."
 
-msgid "Port to open and listen for RPC/Web requests on."
-msgstr "Porto de escoita para as peticións RCP/Web."
+msgid "Port to open and listen for RPC/web requests on."
+msgstr "Porto de escoita para as peticións RCP/web."
 
 msgid "Postfix"
 msgstr "Sufixo"
@@ -370,8 +373,8 @@ msgstr "Preferido"
 msgid "Queue"
 msgstr "Cola"
 
-msgid "Queue Stalled"
-msgstr "Cola detida"
+msgid "Queue stalled"
+msgstr "Cola atoada"
 
 msgid "Queued to check files"
 msgstr "Na cola para comprobar os ficheiros"
@@ -385,11 +388,8 @@ msgstr "Na cola para sementar"
 msgid "Queuing"
 msgstr "Poñendo na cola"
 
-msgid "RPC/WebUI Settings"
-msgstr "Axustes de RPC/WebUI"
-
-msgid "Random Port"
-msgstr "Porto ao chou"
+msgid "RPC/web interface settings"
+msgstr "Axustes de RPC/interface web"
 
 msgid "Random Port on start."
 msgstr "Porto ao chou no inicio."
@@ -400,10 +400,13 @@ msgstr "Alta aleatoriedade"
 msgid "Random low"
 msgstr "Baixa aleatoriedade"
 
+msgid "Random port"
+msgstr "Porto ao chou"
+
 msgid "Ratio"
 msgstr "Taxa"
 
-msgid "Ratio Limit"
+msgid "Ratio limit"
 msgstr "Límite da taxa "
 
 msgid "Require clients to authenticate themselves."
@@ -433,13 +436,13 @@ msgstr "Guión de execución que procesar despois de rematar o torrent"
 msgid "Seed"
 msgstr "Semente"
 
-msgid "Seed Queue"
+msgid "Seed queue"
 msgstr "Cola de sementes"
 
 msgid "Seeding"
 msgstr "Sementando"
 
-msgid "Seeding Limit"
+msgid "Seeding limit"
 msgstr "Límite de sementado"
 
 msgid "Set verbosity of transmission messages."
@@ -463,14 +466,14 @@ msgstr "Socket TOS"
 msgid "Speed"
 msgstr "Velocidade"
 
-msgid "Stalled Minutes"
-msgstr "Tempo de detención"
-
-msgid "Start Torrents"
-msgstr "Iniciar os torrent"
+msgid "Stalled minutes"
+msgstr "Minutos de atoamento"
 
 msgid "Start download"
 msgstr "Iniciar a descarga"
+
+msgid "Start torrents"
+msgstr "Iniciar os torrent"
 
 msgid "Start torrents as soon as they are added."
 msgstr "Comezar a descarga segundo se engadan os torrent."
@@ -529,20 +532,24 @@ msgstr "Enviar o orixinal ao lixo"
 msgid "Tuesday"
 msgstr "martes"
 
-msgid "Turtle Mode"
+msgid "Turtle mode"
 msgstr "Modo tartaruga"
 
-msgid "Turtle Mode download speed. Value is kb/s."
-msgstr "Velocidade de descarga do modo tartaruga. O valor é en kb/s."
+msgid "Turtle mode download speed. Value is KB/s."
+msgstr "Velocidade de descarga do modo tartaruga. O valor é en KB/s."
 
-msgid "Turtle Mode upload speed. Value is kb/s."
-msgstr "Velocidade de envío do modo tartaruga. O valor é en kb/s."
+msgid "Turtle mode upload speed. Value is KB/s."
+msgstr "Velocidade de envío do modo tartaruga. O valor é en KB/s."
 
 msgid "UL-rate"
 msgstr "Taxa UL"
 
 msgid "URL"
 msgstr "URL"
+
+msgid ""
+"URL to access RPC and web interface (http://localhost/&lt;URL&gt;/(rpc|web)."
+msgstr "URL para acceder ao RPC e á interface web (http://localhost/&lt;URL&gt;/(rpc|web)."
 
 msgid "Umask"
 msgstr "Máscara"
@@ -561,12 +568,6 @@ msgstr "Rañuras de envío"
 
 msgid "Upload torrent"
 msgstr "Enviar un torrent"
-
-msgid "Uri"
-msgstr "URI"
-
-msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-msgstr "URL para acceder ao RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
 
 msgid "Use blocklists."
 msgstr "Usar as listas de bloqueo."

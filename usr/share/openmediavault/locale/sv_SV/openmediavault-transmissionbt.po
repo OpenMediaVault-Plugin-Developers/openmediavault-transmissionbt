@@ -3,100 +3,101 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Jonatan Nyberg, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-24 22:26-0600\n"
-"PO-Revision-Date: 2015-02-25 04:26+0000\n"
-"Last-Translator: Aaron Murray <aaronmurray27@gmail.com>\n"
-"Language-Team: Dutch (Belgium) (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/nl_BE/)\n"
+"PO-Revision-Date: 2017-10-28 05:33+0000\n"
+"Last-Translator: Jonatan Nyberg\n"
+"Language-Team: Swedish (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl_BE\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "% completed ..."
-msgstr ""
+msgstr "% slutförd ..."
 
 msgid "100% completed ..."
-msgstr ""
+msgstr "100% slutförd ..."
 
 msgid "Add Torrent by URL"
-msgstr ""
+msgstr "Lägg till Torrent via URL"
 
 msgid "Add torrent"
-msgstr ""
+msgstr "Lägg till torrent"
 
 msgid "Adding Torrent ..."
-msgstr ""
+msgstr "Lägger till torrent ..."
 
 msgid "Authentication"
-msgstr ""
+msgstr "Autentisering"
 
 msgid "Auto sync"
-msgstr ""
+msgstr "Automatisk synkronisering"
 
 msgid "Bandwidth"
-msgstr ""
+msgstr "Bandbredd"
 
 msgid "Begin"
-msgstr ""
+msgstr "Börja"
 
 msgid "Bindings"
-msgstr ""
+msgstr "Bindningar"
 
 msgid "BitTorrent"
-msgstr ""
+msgstr "BitTorrent"
 
 msgid "Blocklists"
-msgstr ""
+msgstr "Blocklistor"
 
 msgid "Cache size"
-msgstr ""
+msgstr "Cache-storlek"
 
 msgid "Cache size (in MB) to reduce the number of disk reads and writes."
-msgstr ""
+msgstr "Cache-storlek (i MB) för att minska antalet skivläsningar och skrivningar."
 
 msgid "Changing place in queue for selected item(s)"
-msgstr ""
+msgstr "Ändra plats i kö för valda objekt"
 
 msgid "Checking files"
-msgstr ""
+msgstr "Kontrollerar filer"
 
 msgid "DL-rate"
-msgstr ""
+msgstr "DL-hastigheten"
 
 msgid "Daily"
-msgstr ""
+msgstr "Daglig"
 
 msgid "Date & Time"
-msgstr ""
+msgstr "Datum & tid"
 
 msgid "Date added"
-msgstr ""
+msgstr "Datum tillagt"
 
 msgid "Date done"
-msgstr ""
+msgstr "Datum gjort"
 
 msgid "Days"
-msgstr ""
+msgstr "Dagar"
 
 msgid "Debug"
-msgstr ""
+msgstr "Felsök"
 
 msgid "Delete Local Data"
-msgstr ""
+msgstr "Ta bort lokala data"
 
 msgid "Delete torrent"
-msgstr ""
+msgstr "Ta bort torrent"
 
 msgid "Delete torrents added from the watch directory."
 msgstr ""
 
 msgid "Deleting torrent ..."
-msgstr ""
+msgstr "Tar bort torrent ..."
 
 msgid "Directory"
 msgstr ""
@@ -113,34 +114,34 @@ msgid "Distributed hash table (DHT)."
 msgstr ""
 
 msgid "Done"
-msgstr ""
+msgstr "Klar"
 
 msgid "Download"
-msgstr ""
+msgstr "Hämta"
 
 msgid "Download queue"
-msgstr ""
+msgstr "Hämtningskö"
 
 msgid "Downloading"
-msgstr ""
+msgstr "Hämtar"
 
 msgid "ETA"
-msgstr ""
+msgstr "ETA"
 
 msgid "Enable"
-msgstr ""
+msgstr "Aktivera"
 
 msgid "Enable &micro;TP."
-msgstr ""
+msgstr "Aktivera &micro;TP."
 
 msgid "Enable DHT."
-msgstr ""
+msgstr "Aktivera DHT."
 
 msgid "Enable LPD."
-msgstr ""
+msgstr "Aktivera LPD."
 
 msgid "Enable PEX."
-msgstr ""
+msgstr "Aktivera PEX."
 
 msgid "Enable Watch directory."
 msgstr ""
@@ -164,16 +165,16 @@ msgid "Enable upload limit."
 msgstr ""
 
 msgid "Encryption"
-msgstr ""
+msgstr "Kryptering"
 
 msgid "End"
-msgstr ""
+msgstr "Slut"
 
 msgid "Enter path to script."
 msgstr ""
 
 msgid "Error"
-msgstr ""
+msgstr "Fel"
 
 msgid "Event"
 msgstr ""
@@ -182,7 +183,7 @@ msgid "Fast"
 msgstr ""
 
 msgid "Files"
-msgstr ""
+msgstr "Filer"
 
 msgid "Files and locations"
 msgstr ""
@@ -191,7 +192,7 @@ msgid "Forced"
 msgstr ""
 
 msgid "Friday"
-msgstr ""
+msgstr "Fredag"
 
 msgid "Full"
 msgstr ""
@@ -209,16 +210,16 @@ msgid "Hourly"
 msgstr ""
 
 msgid "ID"
-msgstr ""
+msgstr "Id"
 
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 msgid "IPv4 address to listen on. Use 0.0.0.0 for all host IPs."
 msgstr ""
 
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 msgid "IPv6 address to listen on. Use :: for all host IPs."
 msgstr ""
@@ -292,7 +293,7 @@ msgid "Monthly"
 msgstr ""
 
 msgid "Move"
-msgstr ""
+msgstr "Flytta"
 
 msgid "Move down"
 msgstr ""
@@ -346,7 +347,7 @@ msgid "Per torrent"
 msgstr ""
 
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 msgid "Port forwarding"
 msgstr ""
@@ -451,13 +452,13 @@ msgid "Sets transmission's file mode creation mask."
 msgstr ""
 
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 msgid "Shared folder"
-msgstr ""
+msgstr "Delad mapp"
 
 msgid "Size"
-msgstr ""
+msgstr "Storlek"
 
 msgid "Socket TOS"
 msgstr ""
@@ -499,7 +500,7 @@ msgid "Thursday"
 msgstr ""
 
 msgid "Time"
-msgstr ""
+msgstr "Tid"
 
 msgid "Torrent is stopped"
 msgstr ""

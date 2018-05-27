@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Hyeonkyu Chu <hyeonkyu@gmail.com>, 2014
+# Hyeonkyu Chu <hyeonkyu@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-transmissionbt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-18 06:27-0500\n"
-"PO-Revision-Date: 2014-11-22 13:40+0000\n"
+"POT-Creation-Date: 2015-02-24 22:26-0600\n"
+"PO-Revision-Date: 2017-09-23 20:29+0000\n"
 "Last-Translator: Hyeonkyu Chu <hyeonkyu@gmail.com>\n"
-"Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/openmediavault-transmissionbt/language/ko_KR/)\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/openmediavault-plugin-developers/openmediavault-transmissionbt/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,11 +54,11 @@ msgstr "BitTorrent"
 msgid "Blocklists"
 msgstr "차단 목록"
 
-msgid "Cache Size"
-msgstr "캐시 크기"
+msgid "Cache size"
+msgstr "Cache 크기"
 
-msgid "Cache size (in Mb) to reduce the number of disk reads and writes."
-msgstr "디스크 읽기/쓰기의 횟수를 줄일, 캐시 크기(MiB)."
+msgid "Cache size (in MB) to reduce the number of disk reads and writes."
+msgstr "디스크 읽기/쓰기의 횟수를 줄일, Cache 크기(MiB)."
 
 msgid "Changing place in queue for selected item(s)"
 msgstr "선택된 항목(들)에 대해 대기열 위치 변경"
@@ -119,11 +119,11 @@ msgstr "완료"
 msgid "Download"
 msgstr "내려받기"
 
-msgid "Download Queue"
+msgid "Download queue"
 msgstr "내려받기 대기열"
 
 msgid "Downloading"
-msgstr "다운로드 중"
+msgstr "내려받는 중"
 
 msgid "ETA"
 msgstr "완료 예정"
@@ -143,9 +143,6 @@ msgstr "LPD 활성화."
 msgid "Enable PEX."
 msgstr "PEX 활성화."
 
-msgid "Enable Turtle Mode."
-msgstr "거북이 방식 활성화."
-
 msgid "Enable Watch directory."
 msgstr "감시 디렉터리 활성화."
 
@@ -160,6 +157,9 @@ msgstr "일시 정지된 토런트 수집을 활성화합니다."
 
 msgid "Enable port forwarding via NAT-PMP or UPnP."
 msgstr "NAT-PMP 또는 UPnP를 통한 포트 전달 활성화합니다."
+
+msgid "Enable turtle mode."
+msgstr "거북이 방식 활성화"
 
 msgid "Enable upload limit."
 msgstr "올려주기 제한 활성화."
@@ -227,7 +227,7 @@ msgstr "수신 대기할 IPv6 주소. 모든 호스트 IP들을 위해 ::을 사
 msgid "Idle"
 msgstr "유휴"
 
-msgid "Idle Minutes"
+msgid "Idle minutes"
 msgstr "유휴 분"
 
 msgid "Incomplete"
@@ -239,29 +239,29 @@ msgstr "무한대"
 msgid "Info"
 msgstr "정보"
 
-msgid "Invalid Uri."
-msgstr "잘못된 Uri."
+msgid "Invalid path."
+msgstr "잘못된 경로."
 
 msgid "Lazy Bitfield"
 msgstr "Bitfield 지연"
 
-msgid "Limit Download"
+msgid "Limit download"
 msgstr "내려받기 제한"
 
-msgid "Limit Upload"
+msgid "Limit download speed. Value is KB/s."
+msgstr "내려받기 제한 속도. 값은 KiB/s."
+
+msgid "Limit upload"
 msgstr "올려주기 제한"
 
-msgid "Limit download speed. Value is kb/s."
-msgstr "내려받기 속도 제한. 값은 KiB/s."
-
-msgid "Limit upload speed. Value is kb/s."
-msgstr "올려주기 속도 제한. 값은 KiB/s."
+msgid "Limit upload speed. Value is KB/s."
+msgstr "올려주기 제한 속도. 값은 KiB/s."
 
 msgid "Limits"
 msgstr "제한"
 
-msgid "Local Peer Discovery (LPD)."
-msgstr "Local Peer Discovery (LPD)."
+msgid "Local peer discovery (LPD)."
+msgstr "Local peer discovery (LPD)."
 
 msgid "Locations"
 msgstr "위치"
@@ -274,11 +274,11 @@ msgstr "이 공유 폴더에 대해 '<b>debian-transmission</b>' 그룹이 <b>�
 msgid "May help get around some ISP filtering."
 msgstr "일부 ISP 차단을 우회하는 데 도움이 될 수 있습니다."
 
-msgid "Message Level"
+msgid "Message level"
 msgstr "알림 전달 수준"
 
-msgid "Micro Transport Protocol (&micro;TP)."
-msgstr "Micro Transport Protocol (&micro;TP)."
+msgid "Micro transport protocol (&micro;TP)."
+msgstr "Micro transport protocol (&micro;TP)."
 
 msgid "Missing Status: "
 msgstr "누락된 상태:"
@@ -291,6 +291,9 @@ msgstr "월요일"
 
 msgid "Monthly"
 msgstr "월간"
+
+msgid "Move"
+msgstr "이동"
 
 msgid "Move down"
 msgstr "아래로 이동"
@@ -328,13 +331,13 @@ msgstr "멈춤"
 msgid "Peer"
 msgstr "피어"
 
-msgid "Peer Ports"
-msgstr "피어 포트"
-
 msgid "Peer exchange (PEX)"
 msgstr "피어 교환 (PEX)"
 
 msgid "Peer port"
+msgstr "피어 포트"
+
+msgid "Peer ports"
 msgstr "피어 포트"
 
 msgid "Peers"
@@ -352,8 +355,8 @@ msgstr "포트 전달"
 msgid "Port to listen for incoming peer connections."
 msgstr "들어오는 피어 연결을 수신하는 포트입니다."
 
-msgid "Port to open and listen for RPC/Web requests on."
-msgstr "포트를 열고 RPC/Web 요청을 수신합니다."
+msgid "Port to open and listen for RPC/web requests on."
+msgstr "포트를 열고 RPC/Web 요청에 대한 수신을 켭니다."
 
 msgid "Postfix"
 msgstr "접미사"
@@ -370,8 +373,8 @@ msgstr "선호"
 msgid "Queue"
 msgstr "대기열"
 
-msgid "Queue Stalled"
-msgstr "정체된 대기열"
+msgid "Queue stalled"
+msgstr "대기열 정체"
 
 msgid "Queued to check files"
 msgstr "파일 확인을 위해 대기"
@@ -385,11 +388,8 @@ msgstr "뿌리기를 위해 대기"
 msgid "Queuing"
 msgstr "대기열"
 
-msgid "RPC/WebUI Settings"
-msgstr "RPC/WebUI 설정"
-
-msgid "Random Port"
-msgstr "무작위 포트"
+msgid "RPC/web interface settings"
+msgstr "RPC/web 접속 설정"
 
 msgid "Random Port on start."
 msgstr "무작위 포트로 시작"
@@ -400,10 +400,13 @@ msgstr "무작위 최고"
 msgid "Random low"
 msgstr "무작위 최저"
 
+msgid "Random port"
+msgstr "무작위 포트"
+
 msgid "Ratio"
 msgstr "비율"
 
-msgid "Ratio Limit"
+msgid "Ratio limit"
 msgstr "비율 제한"
 
 msgid "Require clients to authenticate themselves."
@@ -433,13 +436,13 @@ msgstr "토런트 완료 후 스크립트 처리"
 msgid "Seed"
 msgstr "씨앗"
 
-msgid "Seed Queue"
+msgid "Seed queue"
 msgstr "씨앗 대기열"
 
 msgid "Seeding"
 msgstr "씨앗 유지"
 
-msgid "Seeding Limit"
+msgid "Seeding limit"
 msgstr "씨앗 유지 제한"
 
 msgid "Set verbosity of transmission messages."
@@ -463,14 +466,14 @@ msgstr "소켓 TOS"
 msgid "Speed"
 msgstr "속도"
 
-msgid "Stalled Minutes"
+msgid "Stalled minutes"
 msgstr "정체 분"
-
-msgid "Start Torrents"
-msgstr "토런트 시작"
 
 msgid "Start download"
 msgstr "내려받기 시작"
+
+msgid "Start torrents"
+msgstr "토런트 시작"
 
 msgid "Start torrents as soon as they are added."
 msgstr "토런트가 추가되면 바로 시작"
@@ -529,13 +532,13 @@ msgstr "원본 지우기"
 msgid "Tuesday"
 msgstr "화요일"
 
-msgid "Turtle Mode"
+msgid "Turtle mode"
 msgstr "거북이 방식"
 
-msgid "Turtle Mode download speed. Value is kb/s."
+msgid "Turtle mode download speed. Value is KB/s."
 msgstr "거북이 방식 내려받기 속도. 값은 KiB/s."
 
-msgid "Turtle Mode upload speed. Value is kb/s."
+msgid "Turtle mode upload speed. Value is KB/s."
 msgstr "거북이 방식 올려주기 속도. 값은 KiB/s."
 
 msgid "UL-rate"
@@ -543,6 +546,10 @@ msgstr "UL-속도"
 
 msgid "URL"
 msgstr "URL"
+
+msgid ""
+"URL to access RPC and web interface (http://localhost/&lt;URL&gt;/(rpc|web)."
+msgstr "RPC와 web 접속에 접근할 URL (http://localhost/&lt;URL&gt;/(rpc|web)."
 
 msgid "Umask"
 msgstr "Umask"
@@ -561,12 +568,6 @@ msgstr "올려주기 slots"
 
 msgid "Upload torrent"
 msgstr "토런트 올려주기"
-
-msgid "Uri"
-msgstr "Uri"
-
-msgid "Url to access RPC (http://localhost/&lt;URI&gt;/(rpc|web)."
-msgstr "RPC에 접속할 URL (http://localhost/&lt;Uri&gt;/(rpc|web)."
 
 msgid "Use blocklists."
 msgstr "차단 목록 사용"
