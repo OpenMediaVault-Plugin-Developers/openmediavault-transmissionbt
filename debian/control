@@ -9,7 +9,7 @@ XB-Plugin-Section: downloaders
 Package: openmediavault-transmissionbt
 Architecture: all
 Depends: omvextras-common,
-         openmediavault (>= 3.0.40),
+         openmediavault (>= 4.1.7),
          transmission-cli,
          transmission-daemon,
          ${misc:Depends}

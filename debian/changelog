@@ -1,3 +1,10 @@
+openmediavault-transmissionbt (4.0) stable; urgency=low
+
+  * Fix the pattern attribute in the JSON schemas according to the ECMA
+    262 regular expression dialect.
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sun, 27 May 2018 13:45:10 -0500
+
 openmediavault-transmissionbt (3.0.9) stable; urgency=low
 
   * Fix zeroconf bug by adding uuid

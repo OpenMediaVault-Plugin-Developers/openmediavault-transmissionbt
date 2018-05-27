@@ -18,7 +18,7 @@
         "rpc-password": {
             "type": "string",
             "format": "regex",
-            "pattern": "\/^[^'\"\\\\]+$\/",
+            "pattern": "^[^'\"\\\\]+$",
             "default": "openmediavault"
         },
         "rpc-port": {

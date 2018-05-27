@@ -273,7 +273,7 @@
             "rpc-password": {
                 "type": "string",
                 "format": "regex",
-                "pattern": "\/^[^'\"\\\\]+$\/"
+                "pattern": "^[^'\"\\\\]+$"
             },
             "rpc-port": {
                 "type": "integer",
