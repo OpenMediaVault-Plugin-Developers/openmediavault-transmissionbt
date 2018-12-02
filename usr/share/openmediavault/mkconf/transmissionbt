@@ -124,6 +124,8 @@ generate_config()
         -v "concat('\"rpc-username\": \"', modules/rpc/rpc-username, '\",')" -n \
         -o "\"rpc-whitelist\": \"${OMV_TRANSMISSIONBT_RPC_WHITELIST}\"," -n \
         -o "\"rpc-whitelist-enabled\": ${OMV_TRANSMISSIONBT_RPC_WHITELIST_ENABLED}," -n \
+        -o "\"rpc-host-whitelist\": \"${OMV_TRANSMISSIONBT_RPC_HOST_WHITELIST}\"," -n \
+        -o "\"rpc-host-whitelist-enabled\": ${OMV_TRANSMISSIONBT_RPC_HOST_WHITELIST_ENABLED}," -n \
         \
         -v "concat('\"alt-speed-time-enabled\": ', modules/scheduling/alt-speed-time-enabled, ',')" -n \
         -v "concat('\"alt-speed-time-begin\": ', modules/scheduling/alt-speed-time-begin, ',')" -n \
